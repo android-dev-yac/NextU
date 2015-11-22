@@ -1,6 +1,4 @@
-/**
- * Created by vvelasquezs on 22/11/15.
- */
+/* Evenlistener_7 */
 var nombre = "Virginia";
 var edad = 30;
 var btn = document.getElementById("btn");
@@ -14,3 +12,4 @@ function saludos(nombre, edad){
     text += "<li>" + nombre + "</li>" + "<li>" + edad + "</li>"
     document.getElementById("list").innerHTML = text;
 }
+/* Fin Evenlistener_7 */
