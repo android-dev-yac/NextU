@@ -1,3 +1,4 @@
+/* ====== Nodo_1 ====== */
 var btn = document.getElementById("btn");
 
 btn.addEventListener("click", function(){
@@ -11,3 +12,15 @@ btn.addEventListener("click", function(){
 
     document.getElementById("mensaje").innerHTML = text; // Cambiamos el HTML del párrafo con id mensaje con el string texto.
 });
+
+/* ====== Fin Nodo_1 ====== */
+
+/* ====== Nodo_3 ====== */
+
+var parrafo = document.createElement("p");
+var text2 = document.createTextNode("Este añadir");
+
+parrafo.appendChild(text2);
+document.body.appendChild(parrafo);
+
+/* ====== Fin Nodo_3 ====== */
