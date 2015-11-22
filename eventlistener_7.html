@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>funciones anidadas con el EventListener</title>
+</head>
+<body>
+	<ul id="list">
+	</ul>
+	<button id="btn">Mostrar nombre</button>
+  <script>
+  	var nombre = "Virginia";
+		var edad = 30;
+		var btn = document.getElementById("btn");
+		
+		btn.addEventListener("click", function(){
+			saludos(nombre, edad);
+		});
+		
+		function saludos(nombre, edad){
+			var text = "";
+			text += "<li>" + nombre + "</li>" + "<li>" + edad + "</li>"
+			document.getElementById("list").innerHTML = text;
+		}
+  </script>
+</body>
+</html>

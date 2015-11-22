@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EventListener multiples acciones</title>
+</head>
+<body>
+	<button id="btn">Entrar</button>
+  
+  <script>
+    var btn = document.getElementById("btn");
+		btn.addEventListener("click", mostrarMensaje1);
+		btn.addEventListener("click", mostrarMensaje2);
+    
+    function mostrarMensaje1(argument){
+      alert("Mensaje 1");
+    }
+		function mostrarMensaje2(argument){
+      alert("Mensaje 2");
+    }
+  </script>
+</body>
+</html>

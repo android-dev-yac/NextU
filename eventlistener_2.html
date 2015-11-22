@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EventListener fuera</title>
+</head>
+<body>
+	<button id="btn">Entrar</button>
+  
+  <script>
+    var btn = document.getElementById("btn");
+		btn.addEventListener("click", mostrarMensaje);
+    
+    function mostrarMensaje(argument){
+      alert("EventListener Fuera");
+    }
+  </script>
+</body>
+</html>
