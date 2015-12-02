@@ -1,0 +1,23 @@
+body {
+  font-family: "Raleway", Arial !important;
+}
+.mbotton20 {
+  margin-bottom: 20px;
+}
+header {
+  margin-bottom: 30px;
+}
+header h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  font-weight: 700;
+  color: #f7522f;
+}
+.box label {
+  width: 160px;
+  margin-bottom: 20px;
+}
+.table-estudiantes,
+.forms-registar {
+  padding-bottom: 40px;
+}
