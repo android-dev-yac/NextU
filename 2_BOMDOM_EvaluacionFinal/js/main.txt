@@ -1,0 +1,26 @@
+var estudiantes = [
+    {
+        "codigo": campoCodigo,
+        "nombre": campoNombre,
+        "apellidos": campoApellidos,
+        "notas": campoNotas
+    }
+];
+
+var estudiantes = [];
+
+
+var btnRegistrar = document.getElementById("btn-registar");
+var btnMostrarRegistrar = document.getElementById("btn-mostraregistrar");
+var btnMostrarMayor = document.getElementById("btn-mostrarmayor");
+var btnMostrarMenor = document.getElementById("btn-mostrarmenor");
+
+btnRegistrar.addEventListener("click", function(json){
+
+    var table = document.getElementById("table-estudiante");
+    var formCodigo = document.getElementById("formCodigo").value;
+    var formNombre = document.getElementById("formNombre").value;
+    var formNotas = document.getElementById("formNotas").value;
+
+
+});

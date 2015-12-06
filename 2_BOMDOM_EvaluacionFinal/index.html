@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,300' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <script src="js/main.js"></script>
+
 </head>
 <body>
     <header>
@@ -23,47 +23,34 @@
                 <div class="col-md-12 mbotton20">
                     <div class="box">
                         <label>Código: </label>
-                        <input type="text" name="" value="">
+                        <input type="text" id="formCodigo" name="question">
                     </div>
                     <div class="box">
                         <label>Nombre completo: </label>
-                        <input type="text" name="" value="">
+                        <input type="text" id="formNombre" name="question">
                     </div>
                     <div class="box">
                         <label>Notas:</label>
-                        <input type="text" name="" value="">
+                        <input type="text" id="formNotas" name="question">
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="botones">
-                        <input type="button" value="Registrar Estudiante" class="btn btn-primary" onclick="registrarEstudiant();">
-                        <input type="button" value="Calcular Notas" class="btn btn-primary"  onclick="mostrarPromedio();">
-                        <input type="button" value="Nota Mayor" class="btn btn-primary"  onclick="mostrarMayor();">
-                        <input type="button" value="Nota Menor" class="btn btn-primary"  onclick="mostrarMenor();">
+                        <button id="btn-registar">Registrar Estudiante</button>
+                        <button id="btn-mostraregistrar">Mostrar Promedio</button>
+                        <button id="btn-mostrarmayor">Mostrar Nota Mayor</button>
+                        <button id="btn-mostrarmenor">Mostrar Nota Menor</button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="table-estudiantes">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>Id</th>
-                  <th>Nombre</th>
-                  <th>Apellidos</th>
-                  <th>Notas</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row" id="idColum"></th>
-                  <td id="nomColum"></td>
-                  <td id="apColum"></td>
-                  <td id="notColum"></td>
-                </tr>
-              </tbody>
+        <div>
+            <table id="tablEstudiante" class="table table-striped">
+
             </table>
         </div>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
