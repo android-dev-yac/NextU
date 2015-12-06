@@ -29,7 +29,6 @@ btnRegistrar.addEventListener("click", function () {
     for(var i = 0; i < clearField.length; i++){
         clearField[i].value = '';
     }
-    å
 });
 
 /*=============== Boton Mostrar Registrar ===============*/
@@ -43,8 +42,6 @@ btnMostrarRegistrar.addEventListener("click", function () {
     }
     resultado += '</table>'
     document.getElementById('tablEstudiante').innerHTML = resultado;
-
-
 });
 
 /*=============== Boton Mostrar Notas Mayores ===============*/
@@ -57,24 +54,25 @@ btnMostrarMayor.addEventListener("click", function () {
             promMay += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
             promMay += '<td>' + estudiantes[i].nombre + '</td>';
             promMay += '<td>' + xSub + '</td></tr></tbody>';
+            xSub.sort();
         }
     }
     promMay += '</table>'
     document.getElementById('tablEstudiante').innerHTML = promMay;
 });
 
-/*=============== Boton Mostrar Notas Mayores ===============*/
-btnMostrarMayor.addEventListener("click", function () {
-    var promMay = "";
-    promMay += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
+/*=============== Boton Mostrar Notas Menores ===============*/
+btnMostrarMenor.addEventListener("click", function () {
+    var promMen = "";
+    promMen += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
     for (var i = 0; i < estudiantes.length; i++) {
-        var xSub = Number(estudiantes[i].notas).toFixed(1);
-        if(xSub >= 4.0) {
-            promMay += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
-            promMay += '<td>' + estudiantes[i].nombre + '</td>';
-            promMay += '<td>' + xSub + '</td></tr></tbody>';
+        var xBaja = Number(estudiantes[i].notas).toFixed(1);
+        if(xBaja <= 3.9) {
+            promMen += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
+            promMen += '<td>' + estudiantes[i].nombre + '</td>';
+            promMen += '<td>' + xBaja + '</td></tr></tbody>';
         }
     }
-    promMay += '</table>'
-    document.getElementById('tablEstudiante').innerHTML = promMay;
+    promMen += '</table>'
+    document.getElementById('tablEstudiante').innerHTML = promMen;
 });
