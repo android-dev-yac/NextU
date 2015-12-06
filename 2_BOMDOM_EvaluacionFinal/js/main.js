@@ -5,7 +5,7 @@ var btnMostrarRegistrar = document.getElementById("btn-mostraregistrar");
 var btnMostrarMayor = document.getElementById("btn-mostrarmayor");
 var btnMostrarMenor = document.getElementById("btn-mostrarmenor");
 
-// Boton Registar Estudiante
+/*=============== Boton Registar Estudiante ===============*/
 btnRegistrar.addEventListener("click", function () {
 
     var formCodigo = document.getElementById("formCodigo").value;
@@ -29,10 +29,12 @@ btnRegistrar.addEventListener("click", function () {
     for(var i = 0; i < clearField.length; i++){
         clearField[i].value = '';
     }
+
 });
 
 /*=============== Boton Mostrar Registrar ===============*/
 btnMostrarRegistrar.addEventListener("click", function () {
+
     var resultado = "";
     resultado += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
     for (var i = 0; i < estudiantes.length; i++) {
@@ -42,10 +44,12 @@ btnMostrarRegistrar.addEventListener("click", function () {
     }
     resultado += '</table>'
     document.getElementById('tablEstudiante').innerHTML = resultado;
+
 });
 
 /*=============== Boton Mostrar Notas Mayores ===============*/
 btnMostrarMayor.addEventListener("click", function () {
+
     var promMay = "";
     promMay += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
     for (var i = 0; i < estudiantes.length; i++) {
@@ -54,15 +58,16 @@ btnMostrarMayor.addEventListener("click", function () {
             promMay += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
             promMay += '<td>' + estudiantes[i].nombre + '</td>';
             promMay += '<td>' + xSub + '</td></tr></tbody>';
-            xSub.sort();
         }
     }
     promMay += '</table>'
     document.getElementById('tablEstudiante').innerHTML = promMay;
+
 });
 
 /*=============== Boton Mostrar Notas Menores ===============*/
 btnMostrarMenor.addEventListener("click", function () {
+
     var promMen = "";
     promMen += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
     for (var i = 0; i < estudiantes.length; i++) {
@@ -75,4 +80,5 @@ btnMostrarMenor.addEventListener("click", function () {
     }
     promMen += '</table>'
     document.getElementById('tablEstudiante').innerHTML = promMen;
+
 });
