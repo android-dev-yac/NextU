@@ -1,15 +1,9 @@
-/*=============== JSON registrar ===============*/
 var estudiantes = [];
 
-/*=============== Botones ID variable ===============*/
 var btnRegistrar = document.getElementById("btn-registar");
 var btnMostrarRegistrar = document.getElementById("btn-mostraregistrar");
 var btnMostrarMayor = document.getElementById("btn-mostrarmayor");
 var btnMostrarMenor = document.getElementById("btn-mostrarmenor");
-
-/*=============== Table Add Style ===============*/
-document.getElementById('tablEstudiante').className = "table-striped";
-document.getElementById('tablEstudiante').className = "table";
 
 /*=============== Boton Registar Estudiante ===============*/
 btnRegistrar.addEventListener("click", function () {
@@ -36,29 +30,20 @@ btnRegistrar.addEventListener("click", function () {
         clearField[i].value = '';
     }
 
+});
+
+/*=============== Boton Mostrar Registrar ===============*/
+btnMostrarRegistrar.addEventListener("click", function () {
+
     var resultado = "";
     resultado += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
-    for (var i = 0, registrar; i < estudiantes.length; i++) {
+    for (var i = 0; i < estudiantes.length; i++) {
         resultado += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
         resultado += '<td>' + estudiantes[i].nombre + '</td>';
         resultado += '<td>' + estudiantes[i].notas + '</td></tr></tbody>';
     }
     resultado += '</table>'
     document.getElementById('tablEstudiante').innerHTML = resultado;
-
-});
-
-/*=============== Boton Mostrar Promedio ===============*/
-btnMostrarRegistrar.addEventListener("click", function () {
-
-    var promedio = "";
-    promedio += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
-    for (var i = 0; i < estudiantes.length; i++) {
-        promedio += '<tbody><tr><td>' + estudiantes[i].notas + '</td>';
-        promedio += '<tr>' + "notas" + '</tr></tbody>';
-    }
-    promedio += '</table>'
-    document.getElementById('tablEstudiante').innerHTML = promedio;
 
 });
 
