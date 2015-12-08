@@ -37,13 +37,13 @@ btnRegistrar.addEventListener("click", function () {
     }
 
     var resultado = "";
-    resultado += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
+    resultado += '<thead>' + '<tr><th>Código</th><th>Nombre</th><th>Nota</th></tr>' + '</thead>';
     for (var i = 0, registrar; i < estudiantes.length; i++) {
         resultado += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
         resultado += '<td>' + estudiantes[i].nombre + '</td>';
-        resultado += '<td>' + estudiantes[i].notas + '</td></tr></tbody>';
+        resultado += '<td>' + estudiantes[i].notas + '</td></tr>';
     }
-    resultado += '</table>'
+    resultado += '</tbody>'
     document.getElementById('tablEstudiante').innerHTML = resultado;
 
 });
@@ -52,12 +52,14 @@ btnRegistrar.addEventListener("click", function () {
 btnMostrarRegistrar.addEventListener("click", function () {
 
     var promedio = "";
-    promedio += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
+    var xSum = 0;
+    promedio += '<thead>' + '<tr><th>Nota</th></tr>' + '</thead>';
     for (var i = 0; i < estudiantes.length; i++) {
-        promedio += '<tbody><tr><td>' + estudiantes[i].notas + '</td>';
-        promedio += '<tr>' + "notas" + '</tr></tbody>';
+        xSum += parseInt(estudiantes[i].notas);
+        promedio += '<tbody><tr><td>' + estudiantes[i].notas + '</tr>';
     }
-    promedio += '</table>'
+    promedio += '<tr><td>' + '<strong>' + 'Total: ' + '</strong>' + xSum / estudiantes.length + '</td></tr>';
+    promedio += '</tbody>';
     document.getElementById('tablEstudiante').innerHTML = promedio;
 
 });
@@ -66,16 +68,16 @@ btnMostrarRegistrar.addEventListener("click", function () {
 btnMostrarMayor.addEventListener("click", function () {
 
     var promMay = "";
-    promMay += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
+    promMay += '<thead>' + '<tr><th>Código</th><th>Nombre</th><th>Nota</th></tr>' + '</thead>';
     for (var i = 0; i < estudiantes.length; i++) {
         var xSub = Number(estudiantes[i].notas).toFixed(1);
         if(xSub >= 4.0) {
             promMay += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
             promMay += '<td>' + estudiantes[i].nombre + '</td>';
-            promMay += '<td>' + xSub + '</td></tr></tbody>';
+            promMay += '<td>' + xSub + '</td></tr>';
         }
     }
-    promMay += '</table>'
+    promMay += '</tbody>'
     document.getElementById('tablEstudiante').innerHTML = promMay;
 
 });
@@ -84,16 +86,16 @@ btnMostrarMayor.addEventListener("click", function () {
 btnMostrarMenor.addEventListener("click", function () {
 
     var promMen = "";
-    promMen += '<table>' + '<thead><tr><th>Código</th><th>Nombre</th><th>Nota</th></tr></thead>';
+    promMen += '<thead>' + '<tr><th>Código</th><th>Nombre</th><th>Nota</th></tr>' + '</thead>';
     for (var i = 0; i < estudiantes.length; i++) {
         var xBaja = Number(estudiantes[i].notas).toFixed(1);
         if(xBaja <= 3.9) {
             promMen += '<tbody><tr><td>' + estudiantes[i].codigo + '</td>';
             promMen += '<td>' + estudiantes[i].nombre + '</td>';
-            promMen += '<td>' + xBaja + '</td></tr></tbody>';
+            promMen += '<td>' + xBaja + '</td></tr>';
         }
     }
-    promMen += '</table>'
+    promMen += '</tbody>'
     document.getElementById('tablEstudiante').innerHTML = promMen;
 
 });
