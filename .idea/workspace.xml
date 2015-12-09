@@ -368,7 +368,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449672816704</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="cambios nombres archivos para organizar">
+      <created>1449697175127</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1449697175127</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -427,7 +433,8 @@
     <MESSAGE value="eleminar  folder node" />
     <MESSAGE value="Correción" />
     <MESSAGE value="Practicar jQuery" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practicar jQuery" />
+    <MESSAGE value="cambios nombres archivos para organizar" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios nombres archivos para organizar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
