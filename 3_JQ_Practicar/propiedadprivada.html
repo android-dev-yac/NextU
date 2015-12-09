@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <script src="bower_components/jquery-2.1.4.min/index.js"></script>
+</head>
+<body>
+    <script>
+
+        var objeto = (function () {
+
+            var propPublica = "Valor Pública";
+            var propPrivada = "Valor Privado";
+
+            var cambiarPrivada = function() {
+                propPrivada = "Valor muy privado"
+            };
+
+            var mostrarPrivada = function() {
+                console.log(propPrivada);
+                cambiarPrivada();
+            };
+
+            return{
+                propPublica: propPublica,
+                mostrarPrivada: mostrarPrivada
+            }
+
+        })();
+
+        console.log(objeto.propPublica);
+        objeto.mostrarPrivada();
+
+    </script>
+</body>
+<!--</html>-->
