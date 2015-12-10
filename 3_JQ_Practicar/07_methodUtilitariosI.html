@@ -7,56 +7,47 @@
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bower_components/bootflat/css/bootstrap.min.css">
     <link rel="stylesheet" href="bower_components/bootflat/css/site.css">
-    <link rel="stylesheet" href="css/datosempresa.css">
+    <link rel="stylesheet" href="css/06_methodVal.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Datos de la Empresa</h1>
-        </div>
-    </header>
     <div class="content">
         <div class="container">
             <div class="forms">
                 <div class="row">
                     <div class="col-md-6">
-                        <labe>Cédula</labe>
+                        <labe>Nombre</labe>
                         <input type="text" id="campo1" class="form-control" name="question" >
                     </div>
                     <div class="col-md-6">
-                        <labe>Nombre</labe>
+                        <labe>Edad</labe>
                         <input type="text" id="campo2" class="form-control" name="question" >
                     </div>
                     <div class="col-md-6">
-                        <labe>Dirección</labe>
+                        <labe>Estatura</labe>
                         <input type="text" id="campo3" class="form-control" name="question" >
                     </div>
                     <div class="col-md-6">
-                        <labe>Telefono</labe>
+                        <labe>Peso</labe>
                         <input type="text" id="campo4" class="form-control" name="question" >
                     </div>
-                    <div class="col-md-6">
-                        <labe>Celular</labe>
-                        <input type="text" id="campo5" class="form-control" name="question" >
-                    </div>
-                    <div class="col-md-6">
-                        <labe>Email</labe>
-                        <input type="text" id="campo6" class="form-control" name="question" >
+                    <div class="col-md-12 space">
+                        <input type="button" id="btnRegistar" value="Registrar Persona" class="btn btn-primary">
+                        <input type="button" id="btnPMostrar" value="Mostrar Persona" class="btn btn-primary">
+                        <input type="button" id="btnCalcular" value="Calcular IMC" class="btn btn-primary">
                     </div>
                     <div class="col-md-12">
-                        <input type="button" id="btn-registar" value="Registrar Empresa" class="btn btn-primary">
-                        <input type="button" id="btn-mostrar" value="Mostrar Empresa" class="btn btn-primary">
-                    </div>
-                    <div class="col-md-12">
-                        <div id="addEmpresa"></div>
+                        <div id="mensaje1"></div>
+                        <div id="mensaje2"></div>
                     </div>
 
                 </div>
             </div>
 
         </div>
+
     </div>
 
-    <script src="js/04_datosempresa.js"></script>
+
+    <script src="js/07_methodUtilitariosI.js"></script>
 </body>
-<!--</html>-->
+</html>
