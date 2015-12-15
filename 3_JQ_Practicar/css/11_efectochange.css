@@ -1,0 +1,9 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 60px 0;
+}
+.ptext {
+  padding: 20px 0;
+  color: #1F4788;
+  font-weight: 600;
+}

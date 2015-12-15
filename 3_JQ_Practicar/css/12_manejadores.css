@@ -1,0 +1,29 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 60px 0;
+}
+.box {
+  padding: 40px 0;
+}
+.box .boxColor {
+  background-color: #d1293a !important;
+}
+.box .box1 {
+  background-color: #1F4788;
+  left: 600px;
+  top: 300px;
+}
+.box .box2 {
+  background-color: #0b859c;
+  left: 900px;
+  top: 400px;
+}
+.box .box1,
+.box .box2 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  padding: 10px;
+  color: #fff;
+}
