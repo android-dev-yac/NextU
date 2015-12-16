@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b305c518-7792-4e03-ac7b-5a3b61d342a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/16_efectobasico.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/17_efectotoggle.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/18_efectofade.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/css/16_efectobasico.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/css/17_efectotoggle.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/css/18_efectofade.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/js/16_efectobasico.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/js/17_efectotoggle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/js/18_efectofade.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/19_colaefectos.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/css/19_colaefectos.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3_JQ_Practicar/js/19_colaefectos.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NextU.iws" />
@@ -37,18 +31,28 @@
           <file leaf-file-name="17_efectotoggle.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/17_efectotoggle.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-14.423077">
                   <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="18_efectofade.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="18_efectofade.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/18_efectofade.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53333336">
-                  <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+                <state vertical-scroll-proportion="-5.769231">
+                  <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="19_colaefectos.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/19_colaefectos.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.56228375">
+                  <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -58,20 +62,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="18_efectofade.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/js/18_efectofade.js">
+          <file leaf-file-name="19_colaefectos.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/js/19_colaefectos.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25773194">
-                  <caret line="8" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.37251654">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="18_efectofade.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/css/18_efectofade.less">
+          <file leaf-file-name="19_colaefectos.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/css/19_colaefectos.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="-10.576923">
                   <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
                   <folding />
                 </state>
@@ -98,9 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3_JQ_Practicar/js/empezacero.js" />
-        <option value="$PROJECT_DIR$/3_JQ_Practicar/objetoliteral.html" />
-        <option value="$PROJECT_DIR$/3_JQ_Practicar/propiedadprivada.html" />
         <option value="$PROJECT_DIR$/3_JQ_Practicar/css/datosempresa.css" />
         <option value="$PROJECT_DIR$/3_JQ_Practicar/bower_components/Bootflat/css/site.css" />
         <option value="$PROJECT_DIR$/3_JQ_Practicar/js/datosempresa.js" />
@@ -149,6 +150,9 @@
         <option value="$PROJECT_DIR$/3_JQ_Practicar/18_efectofade.html" />
         <option value="$PROJECT_DIR$/3_JQ_Practicar/css/18_efectofade.less" />
         <option value="$PROJECT_DIR$/3_JQ_Practicar/js/18_efectofade.js" />
+        <option value="$PROJECT_DIR$/3_JQ_Practicar/19_colaefectos.html" />
+        <option value="$PROJECT_DIR$/3_JQ_Practicar/css/19_colaefectos.less" />
+        <option value="$PROJECT_DIR$/3_JQ_Practicar/js/19_colaefectos.js" />
       </list>
     </option>
   </component>
@@ -259,16 +263,16 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_JS_DOMBOM_Practicar" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/3_JQ_Practicar/css" />
       <recent name="$PROJECT_DIR$/3_JQ_Practicar/js" />
       <recent name="$PROJECT_DIR$/3_JQ_Practicar" />
       <recent name="$PROJECT_DIR$/2_BOMDOM_EvaluacionFinal/js" />
-      <recent name="$PROJECT_DIR$/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2_JS_DOMBOM_Practicar" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
@@ -444,7 +448,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24876674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21393035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21393035" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1952079" sideWeight="0.50406504" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22761194" sideWeight="0.49753347" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,27 +501,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2_JS_DOMBOM_Practicar/nodos_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21244635">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_JS_DOMBOM_Practicar/nodos_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16523606">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/01_empezacero.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38184246">
@@ -813,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/17_efectotoggle.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/js/17_efectotoggle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -837,24 +812,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/18_efectofade.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53333336">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state vertical-scroll-proportion="-5.769231">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/17_efectotoggle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.423077">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/js/18_efectofade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25773194">
-          <caret line="8" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.4139073">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/css/18_efectofade.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.43252596">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/css/19_colaefectos.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.576923">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/19_colaefectos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56228375">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_JQ_Practicar/js/19_colaefectos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37251654">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>
