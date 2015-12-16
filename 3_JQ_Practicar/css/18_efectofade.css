@@ -1,0 +1,12 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 60px 0;
+}
+.box {
+  background-color: #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+blockquote {
+  display: none;
+}
