@@ -12,7 +12,7 @@ $(function() {
         $(".msj").html(mensaje1);
     });
     $('.btn2').on("click", function(){
-        var position = box2.position();
+        var position q.position();
         mensaje2 += "Left: " + position.left + ", Rigth: " + position.top;
         box2.addClass("boxColor");
         $(".msj").html(mensaje2);
