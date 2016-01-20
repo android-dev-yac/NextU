@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+  <button id="btn-primary">Click</button>
+<script>
+  document.getElementById("btn-primary").addEventListener("click", mostrarMensaje);
+  function mostrarMensaje(argument){
+    alert("Funciona afuera del dEventListener");
+  }
+</script>
+</body>
+</html>

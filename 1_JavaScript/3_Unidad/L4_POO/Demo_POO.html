@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>POO</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+        button {
+            background-color: #f7522f;
+            border:none;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #DB4300;
+        }
+    </style>
+<body>
+
+    <h1>POO</h1>
+
+    <p id="view1"></p>
+    <p id="view2"></p>
+    <button onclick="myFunction1();">Saludo 1</button>
+    <button onclick="myFunction2();">Saludo 1</button>
+
+</body>
+<script>
+
+function Persona(nombre, edad, ciudad, email) {
+    //Setiamos los atributos de la clase Persona con los parametros recibidos
+    this.nombre = nombre;
+    this.edad = edad;
+    this.ciudad = ciudad;
+    this.email = email;
+
+    //Método saludar() propio de la clase Persona 
+    this.saludar = function() {
+        document.getElementById('view1').innerHTML = "Hola mi hombre es " + this.nombre + " y mi edad es " + this.edad;
+    }
+}
+// Creación de un objeto de la clase Persona
+var persona = new Persona ("Virginia Velásquez Soto", "30", "Medellín", "virginiavelasquez16@gmail.com");
+
+//Invocación del método saludar() a traves del objeto Persona
+function myFunction1(argument) {
+    persona.saludar();
+}
+//Acceso a los atributos cuidad e email del objeto Persona
+function myFunction2 (argument) {
+    document.getElementById('view2').innerHTML = "Soy de " + persona.ciudad + " y mi E-mail es " +  persona.email
+    persona.saludar;
+}
+
+
+</script>
+</html>

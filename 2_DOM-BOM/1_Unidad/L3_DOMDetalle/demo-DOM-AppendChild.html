@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="box">
+        <h1>texto 1</h1>
+        <h1>texto 2</h1>
+        <h1>texto 3</h1>
+    </div>
+   <button onclick="agregarElement();">Agregar un titulo</button>
+<script>
+    function agregarElement() {
+        var header = document.createElement("h1");
+        var text = document.createTextNode("Text 4"); //CreateTextNode permite crear un nodo de tipo de texto.
+
+        header.appendChild(text);
+        document.getElementById("box").appendChild(header);
+    }
+</script>
+</body>
+</html>

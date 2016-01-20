@@ -1,0 +1,120 @@
+body {
+    font-family: "Raleway", Arial !important;
+}
+.mbotton20 {
+    margin-bottom: 20px;
+}
+/*========= HEADER =========*/
+header {
+    .navbar {
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #fff;
+        border: none;
+        .navbar-brand {
+            color: #0096ff;
+            font-size: 30px;
+            font-weight: 600;
+            i {
+                margin-right: 10px;
+            }
+        }
+        .navbar-nav {
+            li {
+                a {
+                    line-height: 30px;
+                }
+            }
+        }
+        .navbar-right {
+            li {
+                &.active {
+
+                    a {
+                        border-radius: 4px !important;
+                        background-color: #0096ff !important;
+                        color: white;
+                        line-height: 0px;
+                        padding: 20px;
+                        margin-top: 10px;
+                        &:hover {
+                            background: #2d3237 !important;
+                            color: #fff;
+                        }
+                    }
+                }
+                a {
+
+                }
+
+            }
+        }
+
+    }
+}
+/*========= CONTENT =========*/
+.sub-banner {
+    background-color: #f8f8f8;
+    margin-bottom: 20px;
+    h2 {
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-weight: 300;
+        color: #0096ff;
+    }
+}
+.box {
+    float: left;
+    &:nth-child(even){
+        margin: 0 20px;
+    }
+    label {
+        margin-bottom: 20px;
+    }
+}
+.table-estudiantes, .forms-registar{
+    padding-bottom: 40px;
+}
+.tittle {
+    padding: 20px 0 40px;
+    text-align: center;
+    h3 {
+        color: #0096ff;
+    }
+    hr {
+        width: 10%;
+        border: 2px solid #ddd;
+    }
+}
+.forms-registar {
+    min-height: 342px;
+}
+.btn-primary {
+    background-color: #0096ff !important;
+    border: none !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    &:hover {
+        background-color: #2d3237 !important;
+    }
+}
+/*========= FOOTER =========*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 0;
+    ul {
+        float: right;
+        li {
+            float: left;
+            &:nth-child(even) {
+                margin: 0 20px;
+            }
+        }
+    }
+
+}

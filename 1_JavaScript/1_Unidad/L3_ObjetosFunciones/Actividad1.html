@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Objetos</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Objetos</h1>
+
+    <h2>Libro</h2>
+    
+    <div>
+        <p>Código: <span id="c1"></span></p>
+        <p>Título: <span id="n1"></span></p>
+        <p>Precio: <span id="p1"></span></p>
+    </div>
+
+</body>
+
+<script>
+   
+   // Primera forma para crear un objeto
+    var producto1 = {
+        codigo: '001',
+        nombre: 'El método Learn Startup',
+        precio: 24000
+    }
+    
+    document.getElementById('c1').innerHTML = producto1.codigo;
+    document.getElementById('n1').innerHTML = producto1.nombre;
+    document.getElementById('p1').innerHTML = producto1.precio;
+
+
+</script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Funciones</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Number</h1>
+    <p id="n1"></p>
+    <p id="n2"></p>
+
+    <h1>Number Propiedades</h1>
+    <p id="n3"></p>
+    <p id="n4"></p>
+    <p id="n5"></p>
+    <p id="n6"></p>
+    <p id="n7"></p>
+    <p id="n8"></p>
+
+    <h1>Number Metodos</h1>
+    <p id="n9"></p>
+    <p id="n10"></p>
+    <p id="n11"></p>
+    <p id="n12"></p>
+    <p id="n13"></p>
+    <p id="n14"></p>
+
+</body>
+
+<script>
+   
+    // Definición de Number
+    var number1 = 2500;
+    var number2 = 34.245;
+
+    document.getElementById('n1').innerHTML = number1;
+    document.getElementById('n2').innerHTML = number2;
+
+    // Propiedades de number
+    var numero3 = 23434;
+    document.getElementById('n3').innerHTML = numero3.constructor; // La propiedad constructor retorna la función nativa que crear un numero.
+    document.getElementById('n4').innerHTML = Number.MAX_VALUE; // La propiedad MAX_VALUE retorna el número maximo que se puede usar en JavaScript.
+    document.getElementById('n5').innerHTML = Number.MIN_VALUE; // La propiedad MAX_VALUE retorna el número minimo que se puede usar en JavaScript.
+    document.getElementById('n6').innerHTML = Number.POSITIVE_INFINITY; // La propiedad POSITIVE_INFINITY retorna un positivo infinito.
+    document.getElementById('n7').innerHTML = Number.NEGATIVE_INFINITY; // La propiedad NEGATIVE_INFINITY retorna un positivo infinito.
+    document.getElementById('n8').innerHTML = Number.NaN; // La propiedad NaN retorna un numero ilegal.
+
+    Number.prototype.metodoNumerico = function(){
+        return this * 8 / 2;
+    }
+    // La propiedad prototype permite crear un nuevo metodo para manipular numeros
+    var numero4 = 25;
+    document.getElementById('n9').innerHTML = numero4.metodoNumerico();
+
+    var numero5 = 26.57;
+    document.getElementById('n10').innerHTML = numero5.toExponential(); // Convierte un número a expresión exponencial.
+
+    var numero6 = 14.594302;
+    document.getElementById('n11').innerHTML = numero6.toFixed(3); // Recorta el número de digitos de un número y lo convierte en string.
+
+    var numero7 = 32.9999;
+    document.getElementById('n12').innerHTML = numero7.toPrecision(6); // Da formato a un númeri para longitud de numero n.
+
+    var numero8 = 3.124;
+    document.getElementById('n13').innerHTML = numero8.toString(); // Convierte un número en una cadena.
+
+    var numero9 = 2000;
+    document.getElementById('n14').innerHTML = numero9.valueOf(); // Devuelve el valor simple de un número
+
+</script>
+</html>

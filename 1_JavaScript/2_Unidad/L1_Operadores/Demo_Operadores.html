@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Operadores</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Operadores</h1>
+
+    <h2>Operadores de comparación</h2>
+    <p id="op1"></p>
+    <p id="op2"></p>
+    <p id="op3"></p>
+    <p id="op4"></p>
+    <p id="op5"></p>
+    <p id="op6"></p>
+    <p id="op7"></p>
+
+    <h2>Operadores aritmeticos</h2>
+    <p id="op8"></p>
+    <p id="op9"></p>
+    <p id="op10"></p>
+    <p id="op11"></p>
+    <p id="op12"></p>
+    <p id="op13"></p>
+    <p id="op14"></p>
+
+    <h2>Operadores de asignación</h2>
+    <p id="op15"></p>
+    <p id="op16"></p>
+    <p id="op17"></p>
+    <p id="op18"></p>
+    <p id="op19"></p>
+
+    <h2>Operadores lógicos</h2>
+    <p id="op20"></p>
+    <p id="op21"></p>
+    <p id="op22"></p>
+
+    <h2>Operadores de concatención</h2>
+    <p id="op23"></p>
+    <p id="op24"></p>
+
+</body>
+
+<script>
+   
+    var a = 10;
+    var b = 8
+
+    //Operadores de comparación
+    var op1 = a < b;    //false
+    var op2 = a > b;    //true
+    var op3 = a <= b;   //false
+    var op4 = a >= b;   //true
+    var op5 = "perro" == "perro";       //true
+    var op6 = "camello" == "camello";   //true
+    var op7 = "casa" != "caza";         //true
+
+    document.getElementById('op1').innerHTML = op1;
+    document.getElementById('op2').innerHTML = op2;
+    document.getElementById('op3').innerHTML = op3;
+    document.getElementById('op4').innerHTML = op4;
+    document.getElementById('op5').innerHTML = op5;
+    document.getElementById('op6').innerHTML = op6;
+    document.getElementById('op7').innerHTML = op7;
+
+    //Operadores aritmeticos
+    var op8 = a + b;
+    var op9 = a - b;
+    var op10 = a * b;
+    var op11 = a / b;
+    var op12 = a % b;
+    var op13 = a++;
+    var op14 = b--;
+
+    document.getElementById('op8').innerHTML = op8;
+    document.getElementById('op9').innerHTML = op9;
+    document.getElementById('op10').innerHTML = op10;
+    document.getElementById('op11').innerHTML = op11;
+    document.getElementById('op12').innerHTML = op12;
+    document.getElementById('op13').innerHTML = op13;
+    document.getElementById('op14').innerHTML = op14;
+
+    //Operadores de asignación
+    var c = 9;
+    var d = 4;
+    var e = 6;
+    var f = 10;
+    var g = 3;
+
+    c += 2; // c = 9 + 2 = 11
+    d -= 3; // d = 4 - 3 = 1
+    e *= 2; // e = 6 * 2 = 12
+    f /= 2; // f = 10 / 2 = 5
+    g %= 2; // g = 3 % 2 = 1
+
+    document.getElementById('op15').innerHTML = c;
+    document.getElementById('op16').innerHTML = d;
+    document.getElementById('op17').innerHTML = e;
+    document.getElementById('op18').innerHTML = f;
+    document.getElementById('op19').innerHTML = g;
+
+    //operadores logicos
+    var h = 12;
+    var i = 20;
+
+    document.getElementById('op20').innerHTML = h > 5 && i < h; // False
+    document.getElementById('op21').innerHTML = h < 5 || i < h; // False
+    document.getElementById('op22').innerHTML = !(h == i); // True
+
+    //operadores de concatenación
+    var nombre = 'Virginia';
+    var apellido = 'Velásquez Soto';
+    var rol = 'Programadora';
+    var perfil = '';
+
+    perfil = nombre +  apellido + ", " + rol; 
+
+    var cadenas = '';
+    var cadena1 = 'Hola como ';
+    var cadena2 = 'estan todos?';
+
+    cadenas += cadena1;
+    cadenas += cadena2;
+    
+    document.getElementById('op23').innerHTML = perfil; 
+    document.getElementById('op24').innerHTML = cadenas;
+
+</script>
+</html>

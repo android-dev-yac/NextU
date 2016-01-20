@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Funciones</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Funciones</h1>
+    <div>
+        <p>Número1 + Numero2 = <span id="resultado"></span></p>
+    </div>
+
+</body>
+
+<script>
+   
+   // Llamado a un funcion desde el código que recibe dos parametros y retorna un valor
+    function suma(x,y){
+        return x + y;
+    }
+    var resultado = suma(20, 2);
+
+    document.getElementById('resultado').innerHTML = resultado;
+
+
+</script>
+</html>

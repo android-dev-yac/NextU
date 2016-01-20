@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+</head>
+<body>
+    <h1 id="texto" onmousedown="mouseDown();" onmouseup="mouseUp();">NextUniversity</h1>
+</body>
+<script>
+    var text = document.getElementById("texto");
+
+    function mouseDown(){
+        text.style.background = "yellow";
+    }
+    function mouseUp(){
+        text.style.background = "red";
+    }
+</script>
+</html>

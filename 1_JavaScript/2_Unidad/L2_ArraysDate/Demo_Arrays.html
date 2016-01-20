@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Arrays</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Arrays</h1>
+
+    <p id="a1"></p>
+    <p id="a2"></p>
+    <p id="a3"></p>
+    <p id="a4"></p>
+    <p id="a5"></p>
+    <p id="a6"></p>
+    <p id="a7"></p>
+    <p id="a8"></p>
+
+</body>
+
+<script>
+   
+   // Arrays definición
+    var futbol = ["Balón", "Jugadores", "Cancha"];
+    var animales = new Array ("Perro", "Gato", "Ballena");
+
+    document.getElementById('a1').innerHTML = futbol;
+    document.getElementById('a2').innerHTML = animales;
+
+    // Arrays operaciónes
+    futbol[1] = "Arbitos"; // Remplazar un valor de un array
+    document.getElementById('a3').innerHTML = futbol;
+    document.getElementById('a4').innerHTML = futbol.length; //Obtener el tamaño de un array
+
+    futbol[futbol.length] = "Juez"; // Almacenar un valor en la ultima posición de un array 
+    document.getElementById('a5').innerHTML = futbol; 
+
+    futbol.reverse(); // Invertar el orden de los elementos
+    document.getElementById('a6').innerHTML = futbol; 
+
+    animales.sort(); // Ordenar los elemntos
+    document.getElementById('a7').innerHTML = animales; 
+
+    var arrayConcat = animales.concat(futbol); // Concatenar dos arrays.
+    document.getElementById('a8').innerHTML = arrayConcat;
+
+
+
+</script>
+</html>

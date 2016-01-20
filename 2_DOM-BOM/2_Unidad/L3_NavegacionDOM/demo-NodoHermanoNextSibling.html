@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navegación del DOM</title>
+</head>
+<body>
+
+  <div id="myDiv">
+    <h1>Encabezado 1</h1>
+    <p id="p1">Parrafo 2</p>
+    <h3>Encabezadoz 3</h3>
+    <h4>Encabezadoz 4</h4>
+  </div>
+
+  <p id="mensaje"></p>
+
+  <button onclick="nodeUltimo();">Primer Nodo</button>
+
+  <script>
+    function nodeUltimo() {
+      var text = "";
+      var parrafo = document.getElementById("p1");
+      var mensaje = document.getElementById("mensaje");
+
+      mensaje.innerHTML = "Siguiente nodo hermano del elemento párrafo: " + parrafo.nextElementSibling.nodeName;
+      // Se utiliza la propiedad nextElementSibling del elemento párrafo con id "p1" para obtener el siguiente nodo hermano con su respectivo nombre con el fin de mostrarl en el elemento p con id mensaje.
+    }
+  </script>
+
+</body>
+</html>

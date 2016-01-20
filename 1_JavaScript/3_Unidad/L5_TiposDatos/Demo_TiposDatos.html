@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos Datos</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+        button {
+            background-color: #f7522f;
+            border:none;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #DB4300;
+        }
+    </style>
+<body>
+
+    <h1>Conversión Tipos Datos</h1>
+
+    <p id="td1"></p>
+    <p id="td2"></p>
+    <p id="td3"></p>
+    <p id="td4"></p>
+    <p id="td5"></p>
+    <p id="td6"></p>
+    <p id="td7"></p>
+    <p id="td8"></p>
+    <p id="td9"></p>
+    <p id="td10"></p>
+    <p id="td11"></p>
+    <p id="td12"></p>
+    <p id="td13"></p>
+    <p id="td14"></p>
+    <p id="td15"></p>
+    <p id="td16"></p>
+    <p id="td1"></p>
+
+
+</body>
+<script>
+    //Conversión de Number a String
+    var string1 = String(15);
+    var string2 = String(3 + 4);
+
+    var number1 = 20;
+
+    var string3 = number1.toString();
+    var string4 = (30).toString();
+
+    //Conversión de Boolean a String
+    var string5 = String(true);
+    var string6 = String(false);
+
+    var string7 = true.toString();
+    var string8 = false.toString();
+
+    //Conversión de Date a String
+    var string9 = String(Date());
+    var string10 = Date().toString();
+
+    //Conversión de String a Number
+    var number2 = Number("6.5");
+    var number3 = Number("");
+
+    var number4  = parseInt("2014");
+    var number5  = parseFloat("35.565 mil pesos");
+
+    //Conversión de Boolean a Number
+    var number6 = Number(true);
+    var number7 = Number(false);
+
+    document.getElementById("td1").innerHTML = string1;
+    document.getElementById("td2").innerHTML = string2;
+    document.getElementById("td3").innerHTML = string3;
+    document.getElementById("td4").innerHTML = string4;
+    document.getElementById("td5").innerHTML = string5;
+    document.getElementById("td6").innerHTML = string6;
+    document.getElementById("td7").innerHTML = string7;
+    document.getElementById("td8").innerHTML = string8;
+    document.getElementById("td9").innerHTML = string9;
+    document.getElementById("td10").innerHTML = string10;
+    document.getElementById("td11").innerHTML = number1;
+    document.getElementById("td12").innerHTML = number2;
+    document.getElementById("td13").innerHTML = number3;
+    document.getElementById("td14").innerHTML = number4;
+    document.getElementById("td15").innerHTML = number5;
+    document.getElementById("td16").innerHTML = number6;
+    document.getElementById("td17").innerHTML = number7;
+
+
+
+</script>
+</html>

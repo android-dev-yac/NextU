@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="box"></div>
+   <button onclick="cookies();">cookie</button>
+</body>
+<script>
+    function cookies() {
+       var cook = getElementById("box");
+       document.cookie = "clave = 1234";
+       cook.innerHTML = "Cookies " + document.cookie;
+    }
+</script>
+</html>

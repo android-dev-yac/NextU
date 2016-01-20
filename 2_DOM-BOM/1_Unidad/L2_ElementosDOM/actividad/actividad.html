@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métod getElementsByName</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculo Compra</h1>
+        </header>
+        <table border="0">
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th> 
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>Camisa</td>
+                <td><input type="text" id="precio1" value="30000" disabled/></td> 
+                <td><input type="text" id="cantidad1" value=""/></td>
+                <td><input type="text" id="subtotal1" value="" disabled/></td>  
+            </tr>
+            <tr>
+                <td>Gorra</td>
+                <td><input type="text" id="precio2" value="50000" disabled/></td> 
+                <td><input type="text" id="cantidad2" value=""/></td>
+                <td><input type="text" id="subtotal2" value="" disabled/></td>  
+            </tr>
+            <tr>
+                <td>Zapatos</td>
+                <td><input type="text" id="precio3" value="60000" disabled/></td> 
+                <td><input type="text" id="cantidad3" value=""/></td>
+                <td><input type="text" id="subtotal3" value="" disabled/></td>  
+            </tr>
+
+            <tr>
+                <td>Pantalon</td>
+                <td><input type="text" id="precio4" value="80000" disabled/></td> 
+                <td><input type="text" id="cantidad4" value=""/></td>
+                <td><input type="text" id="subtotal4" value="" disabled/></td>  
+            </tr>
+        </table>
+        <div class="box">
+            <div class="row">
+                <div class="col-md-12">
+                    <p><strong>Total compra:</strong></p>
+                    <input type="text" id="totalCompra" disabled/>
+                </div>
+                <div class="col-md-12">
+                    <button onclick="calcularSubtotales()" >Calcular Subtotales</button>
+<button onclick="calcularTotal()" >Calcular Total</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+
+</script>
+</html>

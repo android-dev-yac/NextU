@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Métod getElementsByName</title>
+</head>
+<body>
+    <input type="radio" name="name_input">
+    <input type="radio" name="name_input">
+</body>
+<script>
+    var cantidad = document.getElementsByName('name_input');
+    alert("La cantidad de Input con nombre de name_input " + cantidad.length);
+</script>
+</html>

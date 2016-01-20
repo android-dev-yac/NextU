@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcular</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/multiplicar.js"></script>
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Calcular</h1>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- Wrap -->
+    <div class="container">
+        <div id="box-forms">
+            <h4>Operaciones Aritmeticas</h4>
+            <div class="row">
+                <div class="col-lg-12">
+                    <input type="text" placeholder="Número" id="num1">
+                    <input type="text" placeholder="Número" id="num2">
+                </div>
+                <div class="col-lg-12 buttons">
+                    <input type="button" class="btn btn-default" value="+" onclick="sumar()"></input>
+                    <input type="button" class="btn btn-default" value="-" onclick="resta()"></sinput>
+                    <input type="button" class="btn btn-default" value="x" onclick="multiplicar()"></input>
+                    <input type="button" class="btn btn-default" value="/" onclick="division()"></input>
+                </div>
+                <div class="col-lg-12">
+                    <div id="resultado1"></div>
+                </div>
+            </div>
+
+        </div>
+        <div id="box-tablas">
+            <h4>Tabla de multiplicar</h4>
+            <div id="forms_tabla">
+                <input type="text" placeholder="Número" id="num">
+                <div class="buttons">
+                    <input type="button" class="btn btn-default" value="Resolver" onclick="hacerTabla()"></input>
+                    
+                </div>
+                <h2 id="resultado2"><h2>
+            </div>
+
+        </div>
+    </div>
+    <!-- /Wrap -->
+</body>
+</html>

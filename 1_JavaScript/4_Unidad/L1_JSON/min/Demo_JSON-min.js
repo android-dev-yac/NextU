@@ -1,0 +1,1 @@
+function leerJSON(o){var e="",n;for(n=0;n<o.length;n++)e+="Código: "+o[n].codigo+" Nombre: "+o[n].nombre+"<br>";document.getElementById("datos").innerHTML=e}var myJSON=[{codigo:"001",nombre:"Virginia"},{codigo:"002",nombre:"Andrés"},{codigo:"003",nombre:"John"}];leerJSON(myJSON);

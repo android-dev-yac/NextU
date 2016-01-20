@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional ELSE IF</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+        button {
+            background-color: #f7522f;
+            border:none;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #DB4300;
+        }
+    </style>
+<body>
+
+    <h1>Condicional ELSE IF</h1>
+
+    
+    <p id="color"></p>
+    <button onclick="verificarColor();">Verificar Color</button>
+
+</body>
+
+<script>
+
+
+    function verificarColor() {
+        
+        var color = prompt("favorito de virginia, Azul o Rojo");
+        
+        if (color == "Azul") {
+            document.getElementById("color").innerHTML = "Favorito color es Azúl";
+        } else if (color == "Rojo") {
+            document.getElementById("color").innerHTML = "Favorito color es Rojo";
+        } else {
+            document.getElementById("color").innerHTML = "Ninguno no es su favorito color";
+        }
+    }
+
+
+
+</script>
+</html>

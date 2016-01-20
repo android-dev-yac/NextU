@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navegación del DOM</title>
+</head>
+<body>
+
+  <div id="myDiv">
+    <h1>Encabezado 1</h1>
+    <h2>Encabezado 2</h2>
+    <h3>Encabezado 3</h3>
+  </div>
+
+  <p id="mensaje"></p>
+
+  <button onclick="nodeUltimo();">Primer Nodo</button>
+
+  <script>
+    function nodeUltimo() {
+      var div = document.getElementById("myDiv");
+      var mensaje = document.getElementById("mensaje");
+
+      mensaje.innerHTML = "Ultimo nodo del div: " + div.lastElementChild.nodeName;
+      // Se utiliza la propiedad lastChild del div para obtener el ultimo nodo hijo con su respectivo nombre para mostrar el elemento p con id mensaje.
+    }
+  </script>
+
+</body>
+</html>

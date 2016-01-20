@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Condicional ELSE IF</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+        button {
+            background-color: #f7522f;
+            border:none;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #DB4300;
+        }
+    </style>
+<body>
+
+    <h1>Meses</h1>
+
+    <p id="mensaje"></p>
+    <button onclick="verificarMes();">Verificar Mes</button>
+
+</body>
+
+<script>
+
+
+    function verificarMes() {
+        
+        var meses = 5;
+
+        switch (meses) {
+            case 1:
+                document.getElementById('mensaje').innerHTML = "El mes es Enero";
+                break;
+            case 2:
+                document.getElementById('mensaje').innerHTML = "El mes es Febrero";
+                break;
+            case 3:
+                document.getElementById('mensaje').innerHTML = "El mes es Marzo";
+                break;
+            case 4:
+                document.getElementById('mensaje').innerHTML = "El mes es Abril";
+                break;
+            case 5:
+                document.getElementById('mensaje').innerHTML = "El mes es Mayo";
+                break;
+            case 6:
+                document.getElementById('mensaje').innerHTML = "El mes es Junio";
+            break;
+                case 7:
+                document.getElementById('mensaje').innerHTML = "El mes es Julio";
+                break;
+            case 8:
+                document.getElementById('mensaje').innerHTML = "El mes es Agosto";
+                break;
+            case 9:
+                document.getElementById('mensaje').innerHTML = "El mes es Septiembre";
+                break;
+            case 10:
+                document.getElementById('mensaje').innerHTML = "El mes es Octubre";
+                break;
+            case 11:
+                document.getElementById('mensaje').innerHTML = "El mes es Noviembre";
+                break;
+            case 12:
+                document.getElementById('mensaje').innerHTML = "El mes es Diciembre";
+                break;
+
+        }
+    }
+
+
+
+</script>
+</html>

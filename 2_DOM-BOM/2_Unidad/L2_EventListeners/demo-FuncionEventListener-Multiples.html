@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+  <button id="btn-primary">Click</button>
+<script>
+  var elemento = document.getElementById("btn-primary");
+  elemento.addEventListener("click", mostrarMensaje1);
+  elemento.addEventListener("click", mostrarMensaje2);
+
+  function mostrarMensaje1(argument){
+    alert("EventListener mensaje 1");
+  }
+  function mostrarMensaje2(argument){
+    alert("EventListener mensaje 2");
+  }
+
+</script>
+</body>
+</html>

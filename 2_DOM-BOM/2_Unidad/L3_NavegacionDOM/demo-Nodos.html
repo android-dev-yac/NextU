@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navegación del DOM</title>
+</head>
+<body>
+
+  <h3 id="text1">Titulo de NODO</h3>
+  <p id="text3">Hola World</p>
+
+  <script>
+    var cambioText = document.getElementById("text1").childNodes[0].nodoValue;
+    document.getElementById("text3").innerHTML = cambioText;
+  </script>
+</body>
+</html>

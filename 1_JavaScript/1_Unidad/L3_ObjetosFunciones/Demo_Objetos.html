@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Objetos</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+    </style>
+<body>
+
+    <h1>Objetos</h1>
+
+    <h2>Producto 1</h2>
+    
+    <p id="c1"></p>
+    <p id="n1"></p>
+    <p id="p1"></p>
+
+    <h2>Producto 2</h2>
+    
+    <p id="c2"></p>
+    <p id="n2"></p>
+    <p id="p2"></p>
+
+    <h2>Producto 3</h2>
+    
+    <p id="c3"></p>
+    <p id="n3"></p>
+    <p id="p3"></p>
+
+
+</body>
+
+<script>
+   
+   // Primera forma para crear un objeto
+    var producto1 = {
+        codigo: '001',
+        nombre: 'Gorra',
+        precio: 5000
+    }
+    
+    // Segunda forma para crear un objeto
+    var producto2  = new Object();
+    producto2.codigo = '002';
+    producto2.nombre = 'Camiseta';
+    producto2.precio = 15000;
+
+    // Terecera forma para crear un objeto
+    function producto3 (codigo, nombre, precio) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.precio = precio;
+
+    }
+    var producto3 = new producto3('003', 'Zapatos', 45000);
+
+    // Accediendo a las propiedades de los objetos para mostrarlas
+    document.getElementById('c1').innerHTML = producto1.codigo;
+    document.getElementById('n1').innerHTML = producto1.nombre;
+    document.getElementById('p1').innerHTML = producto1.precio;
+
+    document.getElementById('c2').innerHTML = producto2.codigo;
+    document.getElementById('n2').innerHTML = producto2.nombre;
+    document.getElementById('p2').innerHTML = producto2.precio;
+
+    document.getElementById('c3').innerHTML = producto3.codigo;
+    document.getElementById('n3').innerHTML = producto3.nombre;
+    document.getElementById('p3').innerHTML = producto3.precio;
+
+</script>
+</html>

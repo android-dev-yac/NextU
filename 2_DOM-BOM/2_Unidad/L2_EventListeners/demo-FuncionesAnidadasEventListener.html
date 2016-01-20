@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+  <button id="btn-primary">Mostrar</button>
+
+<script>
+  var nombre = "Virginia";
+  var estatura = 1.70;
+
+  document.getElementById("btn-primary").addEventListener("click", function(){
+    saludar(nombre, estatura);
+  });
+  function saludar(nombre, estatura){
+    alert("Me llamo: " + nombre + ", mi estatura: " + estatura);
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+    </style>
+<body>
+
+    <h1>Actividad 1</h1>
+    
+    <div>
+        <ul>
+            <li>Sumar: el número 7 y el 9 y asignar el resultado en una variable llamada z.</li>
+            <li>Multiplicar: el número 5 por la variable z y asignar el resultado a una variable llamada w.</li>
+            <li>Mostrar el valor de la variable w en un elemento párrafo con id “resultado1” utilizando getElementById y la propiedad innerHTML.</li>
+            <li class="not"><p id="resultado1"></p></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Restar: el número 19 menos 3 y asignar el resultado en una variable llamada a.</li>
+            <li>Dividir: el número 20 entre la variable a y asignar el resultado a una variable llamada b.</li>
+            <li>Mostrar el valor de la variable b en un elemento párrafo con id “resultado2” utilizando getElementById y la propiedad innerHTML.</li>
+            <li class="not"><p id="resultado2"></p></li>
+        </ul>
+    </div>
+
+
+</body>
+
+<script>
+    var z = 7 + 9;
+    var w = 5 * z; 
+
+    var a = 19 - 3;
+    var b = 20 / a;
+
+    var a = 19 - 3;
+    var b = 20 / a;
+ 
+    document.getElementById("resultado1").innerHTML = w;
+    document.getElementById("resultado2").innerHTML = b;
+
+
+
+
+</script>
+</html>

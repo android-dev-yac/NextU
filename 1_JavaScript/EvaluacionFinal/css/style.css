@@ -1,0 +1,38 @@
+body {
+  font-family: "Raleway", Arial !important;
+}
+header h1 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DBDBDB;
+  font-weight: 700;
+  color: #f7522f;
+}
+.estudiante {
+  margin: 40px 0;
+}
+.estudiante ul {
+  padding: 0;
+  margin: 0;
+}
+.estudiante ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.estudiante ul li.items {
+  border-bottom: 1px solid #DBDBDB;
+}
+.estudiante ul li .resaltar {
+  background-color: yellow;
+  padding: 6px;
+  font-weight: 700 !important;
+}
+.estudiante ul li p {
+  margin-bottom: 0;
+  padding: 6px 0;
+  font-weight: 700;
+}
+.estudiante ul li p #item1,
+.estudiante ul li p #item2,
+.estudiante ul li p #item3 {
+  font-weight: 400;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Funciones</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>String</h1>
+    <p id="s1"></p>
+    <p id="s2"></p>
+    <p id="s3"></p>
+    <p id="s4"></p>
+    <p id="s5"></p>
+    <p id="s6"></p>
+    <p id="s7"></p>
+    <p id="s8"></p>
+    <p id="s9"></p>
+    <p id="s10"></p>
+    <p id="s11"></p>
+    <p id="s12"></p>
+    <p id="s13"></p>
+
+</body>
+
+<script>
+   
+    // Definición de Strings
+    var saludo1 = "Saludo con comillas dobles";
+    var saludo2 = 'Saludo con comillas simple';
+
+    var tamanoString = saludo1.length;
+
+    var objetoString = new String ("Objeto String");
+
+    document.getElementById('s1').innerHTML = saludo1;
+    document.getElementById('s2').innerHTML = saludo2;
+    document.getElementById('s3').innerHTML = tamanoString;
+    document.getElementById('s4').innerHTML = objetoString;
+
+    // Metodos String
+    var string1 = "Este es";
+    var string2 = " una cadena de";
+    var string3 = " texto concatenada";
+    var stringContact = string1.concat(string2, string3); // El método contact() permite concatenar( = enlazar) string.
+    document.getElementById('s5').innerHTML = stringContact;
+
+    var mensaje1 = "Programando en .NET";
+    document.getElementById('s6').innerHTML = mensaje1;
+
+    var mensaje2 = mensaje1.replace(".NET", "JavaScript"); // El método replace() permite reemplazar una parte de una parte de una cadena
+    document.getElementById('s7').innerHTML = mensaje2;
+
+    var mensaje3 = "Luchar, reir, vivir; Esa es la clave";
+    document.getElementById('s8').innerHTML = mensaje3; 
+    document.getElementById('s9').innerHTML = mensaje3.substring(0,19); // El método substring() permite extraer una subcadena de acuerdo a un rango de indices.
+
+    var mensaje4 = "EL IGNORANTE AFIRMA; EL SABIO DUDA Y REFLEXIONA";
+    document.getElementById('s10').innerHTML = mensaje4; 
+    document.getElementById('s11').innerHTML = mensaje4.toLowerCase(); // El método  toLowerCase() permite poner en minuscula una cadena de texto
+
+    var mensaje5 = "La verdadera vida tiene lugar en nuestro interior";
+    document.getElementById('s12').innerHTML = mensaje5; 
+    document.getElementById('s13').innerHTML = mensaje5.toUpperCase(); // El método  toUpperCase() permite poner en mayusculas una cadena de texto
+
+
+</script>
+</html>

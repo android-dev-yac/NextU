@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navegación del DOM</title>
+</head>
+<body>
+
+  <div>
+    <p>parrafo1</p>
+    <p>parrafo2</p>
+    <p>parrafo3</p>
+  </div>
+
+  <button onclick="nodosHijos();">Parrafos</button>
+
+  <p id="mensaje"></p>
+
+  <script>
+    function nodosHijos() {
+      var texts = " ";
+      var div = document.getElementsByTagName("div")[0];
+
+      for (var i = 0; i < div.childNodes.length; i++ ) {
+        texts += div.childNodes[i].nodeName + "<br>";
+      }
+
+      document.getElementById("mensaje").innerHTML = texts;
+    }
+  </script>
+
+</body>
+</html>

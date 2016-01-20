@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Navegación del DOM</title>
+</head>
+<body>
+
+  <div id="myDiv">
+    <h1>Encabezado 1</h1>
+    <h1>Encabezado 2</h1>
+    <h1>Encabezado 3</h1>
+  </div>
+
+  <button onclick="nodePadre();">Primer Nodo</button>
+
+  <script>
+    function nodePadre() {
+      var heading = document.getElementsByTagName("h1")[0];
+      //Obtenemos el primero elemento h1 a traves del método get ElementsByTagName.
+
+      heading.style.color = "red";
+      document.getElementById("mensaje").innerHTML = heading.parentNode.nodeName;
+      // Se utiliza la propiedad firstChild del dic para obtener el primer nodo hijo con su respectivo nombre para mostrar el elemento p con id mensaje.
+    }
+  </script>
+
+</body>
+</html>

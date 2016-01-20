@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form name="frm1"></form>
+    <form name="frm2"></form>
+    <form name="frm3"></form>
+    <form name="frm4"></form>
+    <div id="numeros"></div>
+   <button onclick="numerosForms();">Números de elementos forms</button>
+</body>
+<script>
+    function numerosForms() {
+       document.getElementById("numeros").innerHTML = "Números de elementos forms: " + document.forms.length;
+    }
+</script>
+</html>

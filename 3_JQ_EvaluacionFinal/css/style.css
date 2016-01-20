@@ -1,0 +1,100 @@
+body {
+  font-family: "Raleway", Arial !important;
+}
+.mbotton20 {
+  margin-bottom: 20px;
+}
+/*========= HEADER =========*/
+header .navbar {
+  margin-bottom: 0;
+  padding: 20px;
+  background-color: #fff;
+  border: none;
+}
+header .navbar .navbar-brand {
+  color: #0096ff;
+  font-size: 30px;
+  font-weight: 600;
+}
+header .navbar .navbar-brand i {
+  margin-right: 10px;
+}
+header .navbar .navbar-nav li a {
+  line-height: 30px;
+}
+header .navbar .navbar-right li.active a {
+  border-radius: 4px !important;
+  background-color: #0096ff !important;
+  color: white;
+  line-height: 0px;
+  padding: 20px;
+  margin-top: 10px;
+}
+header .navbar .navbar-right li.active a:hover {
+  background: #2d3237 !important;
+  color: #fff;
+}
+/*========= CONTENT =========*/
+.sub-banner {
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+}
+.sub-banner h2 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-weight: 300;
+  color: #0096ff;
+}
+.box input {
+  margin-left: 20px;
+}
+.box label {
+  margin-bottom: 20px;
+  width: 5%;
+}
+.table-estudiantes,
+.forms-registar {
+  padding-bottom: 40px;
+}
+.tittle {
+  padding: 20px 0 40px;
+  text-align: center;
+}
+.tittle h3 {
+  color: #0096ff;
+}
+.tittle hr {
+  width: 10%;
+  border: 2px solid #ddd;
+}
+.forms-registar {
+  min-height: 342px;
+}
+.btn-primary {
+  background-color: #0096ff !important;
+  border: none !important;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+}
+.btn-primary:hover {
+  background-color: #2d3237 !important;
+}
+/*========= FOOTER =========*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+}
+footer ul {
+  float: right;
+}
+footer ul li {
+  float: left;
+}
+footer ul li:nth-child(even) {
+  margin: 0 20px;
+}

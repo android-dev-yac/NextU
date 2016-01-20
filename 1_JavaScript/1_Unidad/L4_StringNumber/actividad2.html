@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Funciones</title>
+</head>
+    <style>
+        body {
+            font-family: verdana;
+        }
+        div {
+            margin-bottom: 10px;
+        }
+        ul li.not {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+            width: 2%;
+            text-align: center;
+        }
+        span {
+            list-style: none !important;
+            background-color: yellow;
+            padding: 0.2px 2px;
+        }
+    </style>
+<body>
+
+    <h1>Number</h1>
+    <p id="n1"></p>
+
+</body>
+
+<script>
+   
+    /*
+    Actividad:
+    Crear un HTML que contenga un script en el cual se definirá un método llamado metodoSuma a través de la propiedad Number.prototype, y tendrá como función sumar 10 a una variable numérica. Invocar el metodoSuma  y aplicarlo sobre una variable numérica y mostrar su resultado en pantalla.
+     */
+    
+    Number.prototype.metodoSuma = function(){
+        return this + 10 ;
+    }
+    // La propiedad prototype permite crear un nuevo metodo para manipular numeros
+    var numero = 25;
+    document.getElementById('n1').innerHTML = numero.metodoSuma();
+
+</script>
+</html>

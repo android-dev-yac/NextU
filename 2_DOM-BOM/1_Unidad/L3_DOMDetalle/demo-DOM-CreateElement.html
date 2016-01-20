@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+   <button onclick="crearElemento();">Create header</button>
+<script>
+    function crearElemento() {
+        var header = document.createElement("h1");
+        var text = document.createTextNode("New my header"); //CreateTextNode permite crear un nodo de tipo de texto.
+
+        header.appendChild(text); //Método appendChild y el document.body se explicaran más adelante.
+        document.body.appendChild(header);
+    }
+</script>
+</body>
+</html>

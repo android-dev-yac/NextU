@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Registro de estudiantes </title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,600,700,300' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><i class="fa fa-graduation-cap"></i>CInnov</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Acerca de</a></li>
+                        <li><a href="#contact">Contacténos</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class="active"><a href="../navbar/">Registar Estudiantes</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+
+    </header><!-- /header -->
+
+    <div class="sub-banner">
+        <div class="container">
+            <h2>Registrar Estudiantes</h2>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="container">
+            <div class="tittle">
+                <h3>Calificación estudiantes</h3>
+                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar.</p>
+                <hr>
+            </div>
+            <div class="forms-registar">
+                <div class="row">
+                    <div class="col-md-12 mbotton20">
+                        <div class="box">
+                            <label>Código: </label>
+                            <input type="text" id="campCodigo" name="question">
+                        </div>
+                        <div class="box">
+                            <label>Nombre: </label>
+                            <input type="text" id="campNombre" name="question">
+                        </div>
+                        <div class="box">
+                            <label>Apellidos: </label>
+                            <input type="text" id="campApellidos" name="question">
+                        </div>
+                        <div class="box">
+                            <label>Carrera: </label>
+                            <input type="text" id="campCarrera" name="question">
+                        </div>
+                        <div class="box">
+                            <label>Notas:</label>
+                            <input type="text" id="campNota" name="question">
+                        </div>
+                    </div>
+                    <div class="col-md-12  mbotton20">
+                        <div class="botones">
+                            <button id="btnRegistar" class="btn btn-primary">Registrar Estudiante</button>
+                            <button id="btn-mostraregistrar" class="btn btn-primary">Mostrar Promedio</button>
+                            <button id="btn-mostrarmayor" class="btn btn-primary">Mostrar Nota Mayor</button>
+                            <button id="btn-mostrarmenor" class="btn btn-primary">Mostrar Nota Menor</button>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <table id="tablEstudiante"></table>
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">All Rights Reserved © CInnov | Designed & Developed By Virginia Studio</div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-facebook"></i></li>
+                        <li><i class="fa fa-twitter"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

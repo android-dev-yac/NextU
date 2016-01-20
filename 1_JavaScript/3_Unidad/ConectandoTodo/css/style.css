@@ -1,0 +1,47 @@
+body {
+  background-color: #ddd;
+}
+header {
+  background-color: #12b0a5;
+  margin-bottom: 40px;
+}
+#box-forms,
+#box-tablas {
+  border: 1px solid #CECECE;
+  border-radius: 4px;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+#box-forms input[type="text"],
+#box-tablas input[type="text"] {
+  width: 49.5%;
+  padding: 10px;
+}
+#box-forms .buttons,
+#box-tablas .buttons {
+  margin-top: 20px;
+}
+#box-forms .buttons input[type="button"],
+#box-tablas .buttons input[type="button"] {
+  background-color: #424258;
+  color: #fff;
+  border: none;
+}
+#box-forms .buttons input[type="button"]:hover,
+#box-tablas .buttons input[type="button"]:hover {
+  background-color: #f7522f;
+}
+#box-tablas input[type="text"] {
+  width: 100%;
+  padding: 10px;
+}
+#resultado2,
+#resultado1 {
+  font-size: 30px;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: table;
+  margin-top: 10px;
+  background-color: yellow;
+}

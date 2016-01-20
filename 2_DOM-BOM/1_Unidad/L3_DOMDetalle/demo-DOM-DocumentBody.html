@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div></div>
+   <button onclick="objetBody();">Body</button>
+    <script>
+        function objetBody() {
+           var div = document.body.children[0]; // Obtenemos el objeto document.body para obtener el primer elemento hijo de etiqueta body.
+           var texto = document.createTextNode("Mi nuevo texto");
+
+           div.appendChild(texto);
+        }
+    </script>
+</body>
+</html>
