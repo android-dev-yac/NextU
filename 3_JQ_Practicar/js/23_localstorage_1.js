@@ -16,6 +16,7 @@ $(document).ready(function(){
 
         listarPersona();
 
+
         $('#campId').val("");
         $('#campNombre').val("");
         $('#campApellido').val("");

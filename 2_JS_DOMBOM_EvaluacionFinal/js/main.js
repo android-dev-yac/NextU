@@ -68,7 +68,7 @@ btnMostrarRegistrar.addEventListener("click", function () {
 btnMostrarMayor.addEventListener("click", function () {
 
     var promMay = "";
-    promMay += '<thead>' + '<tr><th>Código</th><th>Nombre</th><th>Nota</th></tr>' + '</thead>';
+    promMay += '</*/!*<!--thead-->*!/*/>' + '<tr><th>Código</th><th>Nombre</th><th>Nota</th></tr>' + '</thead>';
     for (var i = 0; i < estudiantes.length; i++) {
         var xSub = Number(estudiantes[i].notas).toFixed(1);
         if(xSub >= 4.0) {
