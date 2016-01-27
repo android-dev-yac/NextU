@@ -7303,4 +7303,78 @@ td.visible-print {
 .jumbotron {
   margin: 50px auto 0 auto;
 }
+.box_l2_1,
+.box_l2_2,
+.box_l2_3_1,
+.box_l2_3_2,
+.box_l2_4,
+.box_l3_1_1,
+.box_l3_1_2 {
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.box_l2_1 p,
+.box_l2_2 p,
+.box_l2_3_1 p,
+.box_l2_3_2 p,
+.box_l2_4 p,
+.box_l3_1_1 p,
+.box_l3_1_2 p {
+  color: #FFFFFF;
+}
+.box_l2_1,
+.box_l2_2,
+.box_l2_4 {
+  background-color: #0096ff;
+}
+.box_l2_2 {
+  background-color: #0b3e6f;
+}
+.box_l2_3_1 {
+  background-color: #99CC66;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.box_l2_3_2 {
+  background-color: #AA3333;
+  display: none;
+}
+.box_l2_4 {
+  width: 160px;
+  height: 120px;
+}
+.box_l2_4 .posX,
+.box_l2_4 .posY {
+  font-weight: 600;
+}
+.box_l3_1_1 {
+  background-color: #0096ff;
+  z-index: 200;
+}
+.box_l3_1_2 {
+  background-color: #AA3333;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+}
+.fontBold {
+  font-weight: bold;
+}
+#resizable {
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+}
+#resizable p {
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=/styles/main.css.map */
