@@ -73,4 +73,72 @@ $(function(){
 
   $('#resizable').resizable();
 
+  /* ==================== Lección 5: Selectable y Sorteable ==================== */
+
+  $('#selectable').selectable();
+
+  $('#sorteable').sortable();
+
+  /* ==================== Lección 5: Selectable Capturando Las Selecciones ==================== */
+
+  var eventSelectable = '';
+  $('#productos').selectable({
+    selected: function(event, ui){
+      var selected = $("li[class$='ui-selected']");
+      $('.itemSelect').html('Has seleccionado ' + selected + ' productos');
+      $('.eventos').html(eventSelectable += "Evento Selected <br>" );
+    },
+    unselected: function(event, ui) {
+      $('.eventos').html(eventSelectable += "Evento Unselected <br>");
+    },
+    start: function(event, ui){
+      $('.eventos').html(eventSelectable += "Evento Start <br>");
+    },
+    stop: function(event, ui){
+      $('.eventos').html(eventSelectable += "Evento Stop <br>");
+    }
+  });
+
+  /* ==================== Lección 5: Ordenando grupos con Sortable ==================== */
+
+  var msjFutbol = '';
+
+  $('#listaA').sortable({
+    start: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Star desde lista A <br>');
+    },
+    receive: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Receive desde lista A <br>');
+    },
+    stop: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Stop desde lista A <br>');
+    }
+  });
+  $('#listaB').sortable({
+    start: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Star desde lista B <br>');
+    },
+    receive: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Receive desde lista B <br>');
+    },
+    stop: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Stop desde lista B <br>');
+    }
+  });
+  $('#listEquipos').sortable({
+    start: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Star desde lista Equipos <br>');
+    },
+    receive: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Receive desde lista Equipos <br>');
+    },
+    stop: function(event, ui) {
+      $('.mensajeFutbol').html(msjFutbol += 'Evento Stop desde lista Equipos <br>');
+    }
+  });
+  $('#listaA, #listaB, #listEquipos').sortable({
+    connectWith: "#listaA, #listaB, #listEquipos"
+  }).disableSelection();
+
+
 });

@@ -43,27 +43,20 @@ $(function() {
     /* ============ Botón de Promedio para mostrar ============ */
     $('#btn-promedio').click(function(){
         var promedio = '';
-        promedio += '<thead>';
-        promedio += '<th>CÓDIGO</th>';
-        promedio += '<th>NOMBRE</th>';
-        promedio += '<th>APELLIDOS</th>';
-        promedio += '<th>NOTAS</th>';
-        promedio += '</thead>';
 
         for (var i = 0; i < localStorage.length; i++) {
 
             var clave = localStorage.key(i);
             var estudiantes = $.parseJSON(localStorage.getItem(clave));
 
-            promedio += '<tbody>';
             promedio += '<tr>';
             promedio += '<td>' + estudiantes.codigo + '</td>';
             promedio += '<td>' + estudiantes.nombre + '</td>';
             promedio += '<td>' + estudiantes.apellidos + '</td>';
+            promedio += '<td>' + estudiantes.carrera + '</td>';
             promedio += '<td>' + estudiantes.notas + '</td>';
             promedio += '</tr>';
         }
-        promedio += '</tbody>';
         $('#tablEstudiante').html(promedio);
     });
 
@@ -71,12 +64,6 @@ $(function() {
     $('#btn-mayor').click(function(){
 
        var promedioMayor = '';
-        promedioMayor += '<thead>';
-        promedioMayor += '<th>CÓDIGO</th>';
-        promedioMayor += '<th>NOMBRE</th>';
-        promedioMayor += '<th>APELLIDOS</th>';
-        promedioMayor += '<th>NOTAS</th>';
-        promedioMayor += '</thead>';
 
         for (var i = 0; i < localStorage.length; i++) {
 
@@ -85,28 +72,22 @@ $(function() {
             var xSub = Number(estudiantes.notas).toFixed(1);
 
             if(xSub >= 3.5) {
-                promedioMayor += '<tbody>';
                 promedioMayor += '<tr>';
                 promedioMayor += '<td>' + estudiantes.codigo + '</td>';
                 promedioMayor += '<td>' + estudiantes.nombre + '</td>';
                 promedioMayor += '<td>' + estudiantes.apellidos + '</td>';
+                promedioMayor += '<td>' + estudiantes.carrera + '</td>';
                 promedioMayor += '<td>' + xSub + '</td>';
                 promedioMayor += '</tr>';
             }
         }
-        promedioMayor += '</tbody>';
+
         $('#tablEstudiante').html(promedioMayor);
     });
     /* ============ Botón de Promedio Mayor para mostrar ============ */
     $('#btn-menor').click(function(){
 
         var promedioMenor = '';
-        promedioMenor += '<thead>';
-        promedioMenor += '<th>CÓDIGO</th>';
-        promedioMenor += '<th>NOMBRE</th>';
-        promedioMenor += '<th>APELLIDOS</th>';
-        promedioMenor += '<th>NOTAS</th>';
-        promedioMenor += '</thead>';
 
         for (var i = 0; i < localStorage.length; i++) {
 
@@ -115,16 +96,16 @@ $(function() {
             var xSub = Number(estudiantes.notas).toFixed(1);
 
             if(xSub <= 3.4) {
-                promedioMenor += '<tbody>';
                 promedioMenor += '<tr>';
                 promedioMenor += '<td>' + estudiantes.codigo + '</td>';
                 promedioMenor += '<td>' + estudiantes.nombre + '</td>';
                 promedioMenor += '<td>' + estudiantes.apellidos + '</td>';
+                promedioMenor += '<td>' + estudiantes.carrera + '</td>';
                 promedioMenor += '<td>' + xSub + '</td>';
                 promedioMenor += '</tr>';
             }
         }
-        promedioMenor += '</tbody>';
+
         $('#tablEstudiante').html(promedioMenor);
     });
 
@@ -140,22 +121,13 @@ $(function() {
     /* ============ Function Registrar ============ */
     function registrarEstudiantes() {
         tabla = '';
-        tabla += '<thead>';
-        tabla += '<th>CÓDIGO</th>';
-        tabla += '<th>NOMBRE</th>';
-        tabla += '<th>APELLIDOS</th>';
-        tabla += '<th>CARRERA</th>';
-        tabla += '<th>NOTAS</th>';
-        tabla += '<th>EDITAR</th>';
-        tabla += '<th>ELIMINAR</th>';
-        tabla += '</thead>';
 
         for (var i = 0; i < localStorage.length; i++) {
 
             var clave = localStorage.key(i);
             var estudiantes = $.parseJSON(localStorage.getItem(clave));
 
-            tabla += '<tbody>';
+
             tabla += '<tr>';
             tabla += '<td>' + estudiantes.codigo + '</td>';
             tabla += '<td>' + estudiantes.nombre + '</td>';
@@ -166,9 +138,33 @@ $(function() {
             tabla += '<td><button onclick="eliminarEstudiantes(\'' + estudiantes.codigo + '\');">Eliminar</button></td>';
             tabla += '</tr>';
         }
-        tabla += '</tbody>';
+
         $('#tablEstudiante').html(tabla);
     }
+    /* ============ Function Mostrar ============ */
+    function registrarMostrar() {
+        tabla = '';
+
+        for (var i = 0; i < localStorage.length; i++) {
+
+            var clave = localStorage.key(i);
+            var estudiantes = $.parseJSON(localStorage.getItem(clave));
+
+            tabla += '<tr>';
+            tabla += '<th>' + estudiantes.codigo + '</th>';
+            tabla += '<th>' + estudiantes.nombre + '</th>';
+            tabla += '<th>' + estudiantes.apellidos + '</th>';
+            tabla += '<th>' + estudiantes.carrera + '</th>';
+            tabla += '<th>' + estudiantes.notas + '</th>';
+            tabla += '<td><button onclick="editarEstudiantes(\'' + estudiantes.codigo + '\');">Editar</button></td>';
+            tabla += '<td><button onclick="eliminarEstudiantes(\'' + estudiantes.codigo + '\');">Eliminar</button></td>';
+            tabla += '</tr>';
+        }
+
+        $('#tablEstudiante').html(tabla);
+    }
+    registrarMostrar();
+
     /* ============ Function Editar de Estudiante ============ */
     window.editarEstudiantes = function(codigo) {
         var estudiantes;

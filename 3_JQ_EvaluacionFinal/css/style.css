@@ -58,16 +58,19 @@ header .navbar .navbar-right li.active a:hover {
 #forms-registar {
   height: 460px;
 }
-#tablEstudiante {
+.tablHeader {
   width: 100%;
   margin: 20px 0;
 }
-#tablEstudiante thead {
+.tablHeader thead {
   border-bottom: 2px solid #ddd;
 }
-#tablEstudiante td,
-#tablEstudiante th {
+.tablHeader td,
+.tablHeader th {
   padding: 10px;
+}
+#tablEstudiante th {
+  font-weight: 400 !important;
 }
 .tittle {
   padding: 20px 0 40px;

@@ -16,24 +16,50 @@
     <!-- endbuild -->
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <ol>
-          <li><a href="l2-01.html">Lección 2: Draggable - Funcionalidad básica del evento de arrastre</a></li>
-          <li><a href="l2-02.html">Lección 2: Draggable - Cambio de imagen del mouse con Draggable</a></li>
-          <li><a href="l2-03.html">Lección 2: Draggable - Draggable de otro objeto</a></li>
-          <li><a href="l2-04.html">Lección 2: Draggable - Captura de posición con Draggable</a></li>
-          <li><a href="l3_01.html">Lección 3: Droppable - Implementando el Droppable </a></li>
-          <li><a href="l4_01.html">Lección 4: Resizable - Efecto</a></li>
-          <li><a href="l5_01.html">Lección 5: Selectable y Sorteable</a></li>
-          <li><a href="l5_02.html">Lección 5: Selectable - Capturando las selecciones</a></li>
-          <li><a href="l5_03.html">Lección 5: Selectable - Ordenando grupos con Sortable</a></li>
-        </ol>
+    <div class="container" id="pagl5-03">
+      <h1>Arrastra</h1>
+      <div class="row">
+
+        <div class="col-md-6 box-grupo">
+          <h4>Grupo A</h4>
+          <ul id="listaA" class="list-unstyled">
+            <li>Atlético Nacional</li>
+          </ul>
+        </div>
+        <div class="col-md-6 box-grupo">
+          <h4>Grupo B</h4>
+          <ul id="listaB" class="list-unstyled">
+            <li>Chelsea</li>
+          </ul>
+        </div>
+
+        <div class="col-md-6 box-equipo">
+          <h3>Equipos de futbol</h3>
+          <ul id="listEquipos" class="list-unstyled">
+            <li>Bayern Munich</li>
+            <li>Roma</li>
+            <li>Manchester City</li>
+            <li>Barcelona</li>
+            <li>Arsenal</li>
+            <li>Real Madrid</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p class="mensajeFutbol"></p>
+        </div>
       </div>
+
+
+
+      <p class="itemSelect"></p>
+      <p class="eventos"></p>
+
+
     </div>
 
   <!-- build:js scripts/main.js -->
   <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
   <script src="scripts/main.js"></script>
   <script src="scripts/hello.js"></script>
   <!-- endbuild -->

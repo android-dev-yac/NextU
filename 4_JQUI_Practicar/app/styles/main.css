@@ -7377,4 +7377,45 @@ td.visible-print {
 #resizable p {
   color: #FFFFFF;
 }
+#selectable li,
+#sorteable li,
+#productos li {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+#selectable .ui-selected,
+#sorteable .ui-selected,
+#productos .ui-selected {
+  background-color: #0b3e6f;
+  color: #fff;
+}
+#pagl5-03 .box-grupo {
+  background-color: #ddd;
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#pagl5-03 .box-grupo h4 {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #BDBDBD;
+}
+#pagl5-03 .box-grupo #listaB li,
+#pagl5-03 .box-grupo #listaA li {
+  padding: 10px;
+  background-color: #0b3e6f;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+#pagl5-03 .box-equipo ul li {
+  padding: 10px;
+  background-color: #0b3e6f;
+  color: #fff;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  width: 46%;
+}
 /*# sourceMappingURL=/styles/main.css.map */
