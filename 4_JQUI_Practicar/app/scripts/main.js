@@ -140,5 +140,15 @@ $(function(){
     connectWith: "#listaA, #listaB, #listEquipos"
   }).disableSelection();
 
+  /* ==================== Lección 6: Efectos Shake y Explode ==================== */
+
+  $('.btnEffect1').click(function(){
+    $('.box1').effect('explode', 4000, function(){
+      $(this).show();
+    });
+  });
+  $('.btnEffect2').click(function(){
+    $('.box2').effect('shake', 4000);
+  });
 
 });
