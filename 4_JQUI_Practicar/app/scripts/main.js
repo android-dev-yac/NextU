@@ -151,4 +151,71 @@ $(function(){
     $('.box2').effect('shake', 4000);
   });
 
+  /* ==================== Lección 7: Efectos SwitchClass Cambios de clases y efectos ==================== */
+
+  var efectInicial = '';
+  var efectFinal = '';
+  var mensaje = '';
+
+  $('#selectIn').change(function(){
+    var opcion = $(this).val();
+
+    switch(opcion) {
+      case 'easeInElastic':
+        efectInicial = 'easeInElastic';
+            break;
+      case 'easeInOutQuint':
+        efectInicial = 'easeInOutQuint';
+            break;
+      case 'easeInCirc':
+        efectInicial = 'easeInCirc';
+        break;
+      case 'easeInOutBounce':
+        efectInicial = 'easeInOutBounce';
+        break;
+      case 'easeInBack':
+        efectInicial = 'easeInBack';
+        break;
+      case 'easeInBounce':
+        efectInicial = 'easeInBounce';
+        break;
+    }
+  });
+  $('#selectOut').change(function(){
+    var opcion = $(this).val();4_ 4dsvdsfv
+
+    switch(opcion) {
+      case 'easeInElastic':
+        efectFinal = 'easeInElastic';
+        break;
+      case 'easeInOutQuint':
+        efectFinal = 'easeInOutQuint';
+        break;
+      case 'easeInCirc':
+        efectFinal = 'easeInCirc';
+        break;
+      case 'easeInOutBounce':
+        efectFinal = 'easeInOutBounce';
+        break;
+      case 'easeInBack':
+        efectFinal = 'easeInBack';
+        break;
+      case 'easeInBounce':
+        efectFinal = 'easeInBounce';
+        break;
+    }
+  });
+
+  $('.boxEffect').mouseenter(function(){
+    $('.boxEffect').switchClass('change1', 'change2', 2000, efectInicial, efectFinal);
+  });
+  $('.boxEffect').mouseout(function(){
+    $('.boxEffect').switchClass('change2', 'change1', 2000, efectFinal, efectInicial);
+  });
+
+  function effectF(){
+    mensaje += 'Termino un efecto <br>';
+    $('#efectosActuales').html(mensaje);
+  }
+
 });

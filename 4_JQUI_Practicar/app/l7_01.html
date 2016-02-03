@@ -16,26 +16,44 @@
     <!-- endbuild -->
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <ol>
-          <li><a href="l2-01.html">Lección 2: Draggable - Funcionalidad básica del evento de arrastre</a></li>
-          <li><a href="l2-02.html">Lección 2: Draggable - Cambio de imagen del mouse con Draggable</a></li>
-          <li><a href="l2-03.html">Lección 2: Draggable - Draggable de otro objeto</a></li>
-          <li><a href="l2-04.html">Lección 2: Draggable - Captura de posición con Draggable</a></li>
-          <li><a href="l3_01.html">Lección 3: Droppable - Implementando el Droppable </a></li>
-          <li><a href="l4_01.html">Lección 4: Resizable - Efecto</a></li>
-          <li><a href="l5_01.html">Lección 5: Selectable y Sorteable</a></li>
-          <li><a href="l5_02.html">Lección 5: Selectable - Capturando las selecciones</a></li>
-          <li><a href="l5_03.html">Lección 5: Selectable - Ordenando grupos con Sortable</a></li>
-          <li><a href="l6_01.html">Lección 6: Efectos Shake y Explode</a></li>
-          <li><a href="l7_01.html">Lección 7: Efectos SwitchClass Cambios de clases y efectos</a></li>
-        </ol>
+    <div class="container" id="pagl7-01">
+      <h1>SwichClass</h1>
+      <div class="row">
+        <div class="col-md-6 col-xs-6 box">
+          <select id="selectIn">
+            <option value="easeInElastic">easeInElastic</option>
+            <option value="easeInOutQuint">easeInOutQuint</option>
+            <option value="easeInCirc">easeInCirc</option>
+            <option value="easeInOutBounce">easeInOutBounce</option>
+            <option value="easeInBack">easeInBack</option>
+            <option value="easeInBounce">easeInBounce</option>
+          </select>
+        </div>
+        <div class="col-md-6 col-xs-6 box">
+          <select id="selectOut">
+            <option value="easeInElastic">easeInElastic</option>
+            <option value="easeInOutQuint">easeInOutQuint</option>
+            <option value="easeInCirc">easeInCirc</option>
+            <option value="easeInOutBounce">easeInOutBounce</option>
+            <option value="easeInBack">easeInBack</option>
+            <option value="easeInBounce">easeInBounce</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <p id="efectosActuales"></p>
+          <input type="text" id="myInput" class="style3" value="Este es texto">
+        </div>
+        <div class="col-md-12">
+          <div class="boxEffect"></div>
+        </div>
       </div>
     </div>
 
   <!-- build:js scripts/main.js -->
   <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
   <script src="scripts/main.js"></script>
   <script src="scripts/hello.js"></script>
   <!-- endbuild -->
