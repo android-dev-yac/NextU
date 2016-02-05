@@ -4,6 +4,9 @@
 @import "../bower_components/font-awesome/less/font-awesome.less";
 @fa-font-path: "../fonts/font-awesome";
 
+body {
+  background-color: #F0F0F0;
+}
 /* ==================================== HEADER ==================================== */
 header {
   padding: 20px 0;
@@ -23,7 +26,7 @@ header {
     padding: 32px 0;
     vertical-align: middle;
     div {
-      width: 40%;
+      width: 50%;
       float: right;
       p {
       font-size: 10px;
@@ -74,17 +77,85 @@ nav {
     }
   }
 }
-/* ==================================== HEADING ==================================== */
-.heading {
-  background-color: #EFEFEF;
-  padding: 20px;
-}
 /* ==================================== WRAPPER ==================================== */
 .wrapper {
   padding: 40px 0;
 }
 #tabla {
-  border: 2px solid #0b3e6f;
-  width:100%;
-  height: 600px;
+  border: 16px solid #4A362F;
+  border-radius: 10px;
+  width:768px;
+  .piezas {
+    height: 768px;
+  }
+  .boxBlack, .boxWrite {
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    border: 1px solid #eedcce;
+   }
+  .boxBlack {
+    background-color: #853C18;
+  }
+  .boxWrite {
+    background-color: #CDA56C;
+  }
+}
+.circeBlack {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 100%;
+  background-color: #272727;
+  border: 2px solid #4a4a4a;
+  box-shadow: 0px 0px 6px 2px rgba(36,36,36,0.54);
+  float: left;
+  margin: 12px 14px;
+}
+.circeWrite {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 100%;
+  background-color: #fff;
+  border: 2px solid #D2D2D2;
+  box-shadow: 0px 0px 6px 2px rgba(36,36,36,0.5);
+  float: left;
+  margin: 12px 14px;
+}
+h4 {
+  text-align: center;
+  border-bottom: 2px dotted #d4d4d4;
+  padding-bottom: 6px;
+}
+#msjA, #msjB {
+  color: #fff;
+  padding: 4px;
+  text-align: center;
+  display: block;
+  border-radius: 2px;
+}
+#msjA {
+  background-color: #39bfe7;
+}
+#msjB {
+  background-color: #f05844;
+}
+.perdido {
+  width: 100%;
+  height: 100px;
+/*  border: 1px solid #BEA586;*/
+  display: block;
+  background-color: #4A362F;
+  box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,1.0);
+}
+/* ==================================== FOOTER ==================================== */
+footer {
+  height: 80px;
+  background-color: #333;
+  p {
+    color: #fff;
+    padding: 30px 0;
+    margin-bottom: 0;
+  }
 }
