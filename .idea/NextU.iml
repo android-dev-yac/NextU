@@ -9,5 +9,6 @@
     <orderEntry type="library" name="angularjs-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="css-DefinitelyTyped" level="application" />
     <orderEntry type="library" name="jqueryui-DefinitelyTyped" level="application" />
+    <orderEntry type="library" name="jquerymobile-DefinitelyTyped" level="application" />
   </component>
 </module>

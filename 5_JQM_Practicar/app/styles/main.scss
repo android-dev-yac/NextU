@@ -1,0 +1,24 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body {
+  font-family: 'Roboto' !important;
+}
+header {
+  margin: 20px 0;
+}
+.jumbotron {
+  margin: 40px 0;
+  ul {
+    li {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+

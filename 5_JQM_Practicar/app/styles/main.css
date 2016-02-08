@@ -1,0 +1,61 @@
+/*
+Error: File to import not found or unreadable: bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss.
+        on line 4 of main.scss
+
+1: $icon-font-path: '../fonts/';
+2: 
+3: // bower:scss
+4: @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+5: // endbower
+6: 
+7: body {
+8:   font-family: 'Roboto' !important;
+9: }
+
+Backtrace:
+main.scss:4
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/import_node.rb:45:in `import'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:363:in `watch_or_update'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/gems/sass-3.4.21/bin/scss:13:in `<top (required)>'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/bin/scss:23:in `load'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/bin/scss:23:in `<main>'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/Users/vvelasquezs/.rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss.\A         on line 4 of main.scss\A \A 1: $icon-font-path: '../fonts/';\A 2: \A 3: // bower:scss\A 4: @import \"bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss\";\A 5: // endbower\A 6: \A 7: body {\A 8:   font-family: 'Roboto' !important;\A 9: }"; }
