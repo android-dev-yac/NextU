@@ -2,11 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="116ee089-c4f8-45f9-823c-97e5613e3467" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5_JQM_Practicar/app/l2_1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5_JQM_Practicar/app/scripts/l2_1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5_JQM_Practicar/app/index.html" afterPath="$PROJECT_DIR$/../5_JQM_Practicar/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/forbidden-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/navigation-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/power-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/edit-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/ajax-loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/power-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-l-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/grid-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/minus-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/forward-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-l-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/back-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/info-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/recycle-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/power-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-l-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/home-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/home-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/gear-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/audio-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/phone-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/gear-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/location-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/calendar-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/forbidden-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/lock-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/grid-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-u-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/delete-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/user-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/heart-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/gear-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/lock-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/comment-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/forbidden-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/ejercicio2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/comment-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/check-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/info-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/minus-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/delete-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/shop-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/clock-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/back-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/user-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/star-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/user-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-r-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/tag-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-r-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/calendar-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/mail-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/clock-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/forward-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/recycle-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/phone-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/search-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/forward-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/bars-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/lock-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/alert-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/camera-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/action-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/bullets-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/bars-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/eye-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/star-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-u-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/comment-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/power-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/edit-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-r-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/action-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/bars-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/phone-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/gear-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/mail-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/heart-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/back-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/video-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-l-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/eye-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/location-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/home-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/video-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/home-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/edit-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/cloud-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-u-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/alert-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-l-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/calendar-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/star-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/search-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/audio-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/check-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/navigation-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/clock-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/bullets-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/info-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/forward-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/refresh-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/video-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/mail-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/bars-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-d-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-r-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/user-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/location-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-u-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/recycle-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/shop-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/check-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/comment-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/back-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/minus-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/action-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/check-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/grid-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/alert-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/forbidden-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/delete-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-l-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/grid-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/heart-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/location-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-l-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/shop-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/refresh-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/alert-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/tag-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/jquery.mobile-1.4.4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/calendar-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/camera-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/plus-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/tag-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/minus-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/clock-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/search-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/navigation-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/plus-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/cloud-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/cloud-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/jquery.mobile-1.4.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/info-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/audio-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/tag-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/eye-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-r-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/camera-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-l-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/camera-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/bullets-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/audio-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/delete-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-r-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/lock-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/search-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-d-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-r-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/eye-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/plus-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/plus-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-d-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/recycle-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/cloud-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-d-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-u-l-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-d-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/arrow-u-l-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/edit-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/star-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-d-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/heart-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/video-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/phone-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/bullets-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/action-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/refresh-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/navigation-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/refresh-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/carat-r-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/jquery-1.11.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-png/shop-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/mail-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/carat-r-black.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/solucion/images/icons-svg/arrow-r-black.svg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.scss" afterPath="$PROJECT_DIR$/css/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="5_JQM_EvaluacionFinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +237,72 @@
     <favorites_list name="5_JQM_EvaluacionFinal" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <splitter split-orientation="horizontal" split-proportion="0.5102041">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="61" column="35" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.64053535">
+                  <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+                  <folding>
+                    <marker date="1455662895000" expanded="true" signature="1724:1784" placeholder="..." />
+                    <marker date="1455662895000" expanded="true" signature="2555:2618" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="1.2657744">
+                  <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+                  <folding>
+                    <marker date="1455662895000" expanded="true" signature="1724:1784" placeholder="..." />
+                    <marker date="1455662895000" expanded="true" signature="2555:2618" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="27" column="46" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jquery.mobile-1.4.4.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/jquery.mobile-1.4.4.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -36,6 +312,10 @@
       <list>
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -45,8 +325,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="width" value="938" />
+    <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,6 +355,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -104,31 +384,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_JQM_EvaluacionFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_JQM_EvaluacionFinal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".tmp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
+              <option name="myItemId" value="Solucion3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -138,15 +399,16 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaScript" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
@@ -174,6 +436,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -209,27 +476,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="502" y="0" width="938" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5016358" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40451023" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31637716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938856" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32711443" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,11 +519,88 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/main.js</url>
+          <line>37</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2657744">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding>
+            <marker date="1455662895000" expanded="true" signature="1724:1784" placeholder="..." />
+            <marker date="1455662895000" expanded="true" signature="2555:2618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jquery.mobile-1.4.4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

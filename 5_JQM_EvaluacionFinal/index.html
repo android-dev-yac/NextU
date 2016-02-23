@@ -1,28 +1,158 @@
-<!doctype html>
-<html class="no-js" lang="es">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Gestión Hotel</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1" charset="utf-8">
 
-  <link rel="stylesheet" href="/bower_components/jquery-mobile/css/themes/default/jquery.mobile.css" />
-  <link rel="stylesheet" href="styles/main.css">
-  <script src="/bower_components/modernizr/modernizr.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100italic,100' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.4.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.4.js"></script>
+
 </head>
 <body>
+    <div data-role="page" id="paginaInicio">
+        <div data-role="header">
+            <h1>Gestión Hotel</h1>
+        </div>
+        <div data-role="content">
+            <form>
 
-  <div id="paginaIn" data-role="page">
-    <div data-role="header">
-      <h1>Gestión Hotel</h1>
+                <a onclick="cambiarPagina('paginaRegistro')" class="ui-btn ui-icon-user ui-btn-icon-left">Registrar</a>
+                <a onclick="cambiarPagina('paginaLista')" class="ui-btn ui-icon-search ui-btn-icon-left">Lista Hoteles</a>
+
+            </form>
+        </div>
+        <div data-role="footer">
+            <p align="center">2016 @DeveloperVirginia</p>
+        </div>
     </div>
-  </div>
 
 
-  <!-- SCRIPT -->
-  <script src="/bower_components/jquery/jquery.js"></script>
-  <scrip src="scripts/jquery.mobile-1.4.4.js">
-  <script src="scripts/main.js"></script>
-  <!-- /SCRIPT -->
+    <div data-role="page" id="paginaRegistro">
+        <div data-role="header">
+            <h1>Registro Hotel</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <div class="ui-field-contain">
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre">
+
+
+                    <div id="mapa">
+                        <label for="nombre">Ubicación:</label>
+                        <div id="mapRegistrar"></div>
+                    </div>
+
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" name="ciudad" id="ciudad">
+
+                    <label for="telefono">Télefono:</label>
+                    <input type="text" name="telefono" id="telefono">
+
+                    <label for="estrella">Estrella:</label>
+                    <input type="number" name="estrella" id="estrella" max="6">
+
+                </div>
+                <a id="btnRegistrar" class="ui-btn">Registrar</a>
+                <a onclick="cambiarPagina('paginaInicio')" class="ui-btn btn-volver">Volver</a>
+            </form>
+        </div>
+        <div data-role="footer">
+            <p align="center">2016 @DeveloperVirginia</p>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="paginaLista">
+        <div data-role="header">
+            <h1>Listas Hoteles</h1>
+        </div>
+        <div data-role="content">
+            <form>
+                <a onclick="cambiarPagina('pgHotelCaribe')" class="ui-btn">Hotel Caribe</a>
+                <a onclick="cambiarPagina('pgHotelTeque')" class="ui-btn">Hotel Tequedema</a>
+                <a onclick="cambiarPagina('paginaInicio')" class="ui-btn btn-volver">Volver</a>
+            </form>
+        </div>
+        <div data-role="footer">
+            <p align="center">2016 @DeveloperVirginia</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="pgHotelCaribe" class="pg-content">
+        <div data-role="header">
+            <h1>Hotel Caribe</h1>
+        </div>
+        <div data-role="content">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3>E-mail:</h3>
+                    <p>info@hotelcaribe.com</p>
+                    <h3>Télefono:</h3>
+                    <p>(574) 559 30 20</p>
+                </div>
+                <div class="ui-block-b">
+                    <h3>Estrella:</h3>
+                    <h4 class="star">6</h4>
+                    <h3>Celular:</h3>
+                    <p>(574) 321 229 19 29</p>
+                </div>
+            </div>
+            <div class="ui-grid-solo">
+                <div id="mapHotelCaribe"></div>
+            </div>
+            <div class="ui-grid-solo">
+                <form>
+                    <a onclick="cambiarPagina('paginaLista')" class="ui-btn btn-volver">Volver</a>
+                </form>
+            </div>
+        </div>
+        <div data-role="footer">
+            <p align="center">2016 @DeveloperVirginia</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="pgHotelTeque" class="pg-content">
+        <div data-role="header">
+            <h1>Hotel Tequemeda</h1>
+        </div>
+        <div data-role="content">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <h3>E-mail:</h3>
+                    <p>info@hoteltequemeda.com</p>
+                    <h3>Télefono:</h3>
+                    <p>(574) 559 30 20</p>
+                </div>
+                <div class="ui-block-b">
+                    <h3>Estrella:</h3>
+                    <h4 class="star">4</h4>
+                    <h3>Celular:</h3>
+                    <p>(574) 321 229 19 29</p>
+                </div>
+            </div>
+            <div class="ui-grid-solo">
+                <div id="mapHotelTeque"></div>
+            </div>
+            <div class="ui-grid-solo">
+                <form>
+                    <a onclick="cambiarPagina('paginaLista')" class="ui-btn btn-volver">Volver</a>
+                </form>
+            </div>
+        </div>
+        <div data-role="footer">
+            <p align="center">2016 @DeveloperVirginia</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYNgq51bXH66BxhTvhngj0qaxOIPatI5E&callback=initMap"
+            type="text/javascript"></script>
 </body>
 </html>
