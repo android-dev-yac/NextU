@@ -1,224 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b305c518-7792-4e03-ac7b-5a3b61d342a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.yo-rc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/ejercicio2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/action-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/action-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/alert-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/alert-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/arrow-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/audio-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/audio-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/back-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/back-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/bars-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/bars-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/bullets-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/bullets-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/calendar-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/calendar-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/camera-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/camera-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-d-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-d-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-l-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-l-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-r-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-r-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-u-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/carat-u-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/check-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/check-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/clock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/clock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/cloud-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/cloud-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/comment-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/comment-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/delete-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/delete-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/edit-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/edit-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/eye-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/eye-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/forbidden-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/forbidden-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/forward-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/forward-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/gear-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/gear-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/grid-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/grid-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/heart-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/heart-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/home-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/home-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/info-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/info-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/location-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/location-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/lock-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/lock-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/mail-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/mail-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/minus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/minus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/navigation-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/navigation-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/phone-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/phone-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/plus-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/plus-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/power-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/power-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/recycle-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/recycle-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/refresh-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/refresh-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/search-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/search-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/shop-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/shop-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/star-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/star-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/tag-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/tag-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/user-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/user-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/video-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-png/video-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/action-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/action-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/alert-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/alert-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/arrow-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/audio-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/audio-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/back-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/back-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/bars-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/bars-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/bullets-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/bullets-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/calendar-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/calendar-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/camera-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/camera-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-d-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-d-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-l-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-l-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-r-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-r-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-u-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/carat-u-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/check-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/check-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/clock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/clock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/cloud-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/cloud-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/comment-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/comment-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/delete-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/delete-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/edit-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/edit-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/eye-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/eye-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/forbidden-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/forbidden-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/forward-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/forward-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/gear-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/gear-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/grid-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/grid-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/heart-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/heart-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/home-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/home-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/info-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/info-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/location-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/location-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/lock-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/lock-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/mail-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/mail-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/minus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/minus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/navigation-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/navigation-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/phone-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/phone-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/plus-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/plus-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/power-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/power-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/recycle-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/recycle-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/refresh-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/refresh-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/search-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/search-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/shop-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/shop-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/star-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/star-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/tag-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/tag-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/user-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/user-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/video-black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/images/icons-svg/video-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/jquery-1.11.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/jquery.mobile-1.4.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/solucion/jquery.mobile-1.4.4.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.idea/workspace.xml" afterPath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/css/main.scss" afterPath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/css/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/index.html" afterPath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/js/main.js" afterPath="$PROJECT_DIR$/5_JQM_EvaluacionFinal/js/main.js" />
-    </list>
+    <list default="true" id="b305c518-7792-4e03-ac7b-5a3b61d342a8" name="Default" comment="" />
     <ignored path="NextU.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -469,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -478,8 +260,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NextU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NextU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -711,7 +504,7 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19238901" sideWeight="0.49593496" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19220643" sideWeight="0.49593496" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21298175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21091811" sideWeight="0.50528544" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16666667" sideWeight="0.4947146" order="10" side_tool="false" content_ui="tabs" />
