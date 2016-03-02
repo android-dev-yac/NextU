@@ -1,2 +1,0 @@
-# NextU
-Practicar NextUniversity
